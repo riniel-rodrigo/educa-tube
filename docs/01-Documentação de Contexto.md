@@ -1,23 +1,43 @@
-Documentação de Contexto
-A revolução digital trouxe consigo inúmeros benefícios no âmbito educacional, tornando a informação acessível a qualquer momento e em qualquer lugar, porém ela também nos trouxe uma série de distrações e obstáculos para o estudo. A abundância de informações compete pela nossa atenção de forma incessante, resultando em uma dispersão constante e dificuldade em focar no que é importante.
+# Introdução
 
-Nesse contexto, enfrentamos uma série de desafios relacionados à nossa capacidade de concentração e produtividade.  De acordo com Ophir, Nass e Wagner (2009), nós vivemos num ambiente de mídia saturada no qual consumimos mais de um fluxo de informação ao mesmo tempo, e desempenhamos mais de uma tarefa ao mesmo tempo, a partir disso temos o fenômeno da multitarefa, a qual tornou-se uma prática comum, mas estudos como de Hal Pashler, Psicólogo experimental e cientista cognitivo conhecido por seus estudos sobre as limitações de atenção humana, demonstram que isso diminui significativamente nossa eficiência cognitiva. Além disso, a constante interrupção por notificações de smartphones e outras distrações digitais afeta nossa capacidade de manter o foco em uma única tarefa.
+Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
-Para mais, com a  grande massa de informações, pode ser difícil filtrar e avaliar a qualidade do conteúdo. Isso pode levar à sobrecarga de informações e confusão, dificultando a assimilação e a compreensão dos materiais de estudo.
+## Problema
+Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Diante desses desafios, é crucial adotar estratégias para preservar nossa atenção e tempo durante a aprendizagem, para tal é cada vez mais necessário plataformas que possam condensar conteúdos úteis e de qualidade, além de evitar maiores distrações  externas, como não utilizar recomendações de conteúdos diferentes do foco do usuário.
-Problema
-Conforme exposto, o problema que se busca diminuir com este projeto é a falta de vídeos úteis em um único lugar e remediar a perda de foco constante causada pela grande concentração de conteúdos diferentes ao foco principal. 
-Objetivos
-O objetivo geral deste trabalho é a criação de um site que oferece vídeos úteis para ajudar na organização de informações de qualidade sobre diferentes temas em um ambiente planejado para facilitar o foco e a concentração devido à diminuição de estímulos que podem trazer dispersão na hora do estudo.
+Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
 
-Justificativa
-Somos constantemente bombardeados por uma avalanche de estímulos. Seja através das redes sociais, notícias online, e-mails ou mensagens instantâneas, estamos imersos em um oceano de dados. Nesse cenário, nossa atenção e foco se tornam recursos valiosos, uma moeda de troca supervalorizada que requer preservação e uso planejado. 
+Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
-Público alvo
+> **Links Úteis**:
+> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
+> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+## Objetivos
 
-Alunos de qualquer nível educacional que estejam enfrentando dificuldades em manter o foco ao assistir vídeos educacionais.
+Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
 
-Curiosos que queiram aprender sobre os mais variados assuntos de forma conveniente, organizada e direcionada.
+Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
 
-Hobistas, em geral, que buscam informações e sintam dificuldade em manter o foco e avaliar conteúdos úteis.
+> **Links Úteis**:
+> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+## Justificativa
+
+Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+
+O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+
+> **Links Úteis**:
+> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+## Público-Alvo
+
+Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
+hierárquicas, etc.
+
+Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+
+> **Links Úteis**:
+> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
+> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
+> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
+> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
