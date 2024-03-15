@@ -1,14 +1,10 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A partir da participação dos usuários descritos abaixo, através de entrevista, conseguimos definir os problemas e os pontos mais relevantes a serem tratados no projeto. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas
-As personas levantadas durante o processo de entendimento do problema são apresentadas nas Figuras seguintes.
 
+As personas levantadas durante o processo de entendimento do problema são apresentadas nas Figuras seguintes.
 <table>
      <tbody>
         <tr>
@@ -45,27 +41,24 @@ As personas levantadas durante o processo de entendimento do problema são apres
         </tr>
     </tbody>
 </table>
-
-
 Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Mona Lisa | visualizar os conteúdos mais relevantes do momento | acessar conteúdos das áreas que me interessam |
+|Mona Lisa | visualizar conteúdos mais alinhadas com minha área de atuação | gastar menos tempo vendo conteúdos aleatórios e dar foco naqueles que estão relacionados com o meu trabalho |
+|Mona Lisa | Fazer anotações relevantes aos conteúdos que estou acessando | Ajuda a manter uma linha de raciocínio coesa   |
+|Jesus Cristo | fazer comentários em conteúdos e reportar minha opinião | discutir com grupos de interesse comum |
+|Jesus Cristo | compartilhar conteúdos para amigos e conhecidos | poder compartilhar com os amigos e colegas de trabalhos sobre temas de interesse |
+|Mona Lisa | poder realizar uma pesquisa acerca de um tema específico | localizar tópicos específicos e conseguir maior objetividade em alguns conteúdos |
+|Jesus Cristo | acessar conteúdos tanto no desktop quanto no celular | Acessar de forma conveniente, indiferente da situação o conteúdo que me interessa |
+|Mona Lisa | Quero organizar minha agenda de estudos | Organizar uma agenda de estudos direcionada para meus objetivos|
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
