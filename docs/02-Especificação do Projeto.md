@@ -91,13 +91,73 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+![Exemplo de Diagrama de Fluxo](img/Diagrama-de-Caso-de-Uso-EducaTube.png)
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+|**Nome de caso de uso**|   Cadastro de Usuário              |
+|-----------------------|------------------------------------|
+|**Ator primário**      | Usuário - qualquer pessoa que interage com o sistema |
+|**Descrição**          | Este caso de uso permite que novos usuários se cadastrem no site, fornecendo as informações necessárias para criar uma conta. O cadastro de usuário é o primeiro passo para acessar todas as funcionalidades oferecidas pelo site.                                 |
+|**Fluxo Principal**    | 1 O usuário acessa a página de cadastro.<br/> 2 O usuário preenche as informações necessárias.<br/> 3 O usuário envia as informações para registro.
+|**Fluxo Alternativo**  | Se o usuário já possui uma conta, ele pode optar por fazer login em vez de se cadastrar.
+
+| **Nome de caso de uso** | Login no Site |
+|-------------------------|---------------|
+| **Ator primário**       | Usuário - qualquer pessoa que interage com o sistema |
+| **Descrição**           | Este caso de uso permite que usuários existentes façam login no site, fornecendo suas credenciais (nome de usuário/e-mail e senha). O login é necessário para acessar as funcionalidades personalizadas do site, como gerenciamento de playlists e histórico de vídeos assistidos. |
+| **Fluxo Principal**     | 1. O usuário acessa a página de login.<br/> 2. O usuário insere suas credenciais (nome de usuário/e-mail e senha).<br/> 3. O sistema verifica as credenciais e permite o acesso se forem válidas. |
+
+| **Nome de caso de uso** | Gerenciamento de Playlists |
+|-------------------------|----------------------------|
+| **Ator primário**       | Usuário - qualquer pessoa que interage com o sistema |
+| **Descrição**           | Este caso de uso permite que o usuário crie, edite, adicione e remova playlists do seu perfil. O usuário pode organizar seus vídeos favoritos em playlists personalizadas para facilitar o acesso e a reprodução. |
+| **Fluxo Principal**     | 1. O usuário acessa a área de gerenciamento de playlists.<br/> 2. O usuário pode criar, editar, adicionar ou remover playlists do seu perfil. |
+
+| **Nome de caso de uso** | Comentários em Vídeos |
+|-------------------------|-----------------------|
+| **Ator primário**       | Usuário - qualquer pessoa que interage com o sistema |
+| **Descrição**           | Este caso de uso permite que os usuários deixem comentários abaixo dos vídeos. Os comentários permitem interação entre os usuários e podem ser usados para discussão, feedback ou esclarecimento de dúvidas relacionadas ao conteúdo do vídeo. |
+| **Fluxo Principal**     | 1. O usuário visualiza um vídeo.<br/> 2. Abaixo do vídeo, o usuário pode adicionar um comentário. |
+
+| **Nome de caso de uso** | Anotações em Vídeos |
+|-------------------------|---------------------|
+| **Ator primário**       | Usuário - qualquer pessoa que interage com o sistema |
+| **Descrição**           | Este caso de uso permite que os usuários façam anotações enquanto assistem a vídeos. As anotações permitem que os usuários capturem insights, marquem pontos importantes ou tomem notas relevantes durante a reprodução do vídeo. |
+| **Fluxo Principal**     | 1. O usuário assiste a um vídeo.<br/> 2. O usuário pode fazer anotações enquanto assiste.<br/> 3. As anotações são salvas automaticamente ou quando o usuário optar por salvar. |
+
+| **Nome de caso de uso** | Histórico de Vídeos Assistidos |
+|-------------------------|---------------------------------|
+| **Ator primário**       | Usuário - qualquer pessoa que interage com o sistema |
+| **Descrição**           | Este caso de uso permite que os usuários visualizem o histórico de vídeos assistidos. O histórico mantém um registro dos vídeos que o usuário já assistiu, facilitando o acesso a conteúdos previamente visualizados. |
+| **Fluxo Principal**     | 1. O sistema registra automaticamente os vídeos assistidos pelo usuário.<br/> 2. O usuário pode acessar o histórico de vídeos assistidos a qualquer momento. |
+
+| **Nome de caso de uso** | Busca de Vídeos ou Playlists |
+|-------------------------|--------------------------------|
+| **Ator primário**       | Usuário - qualquer pessoa que interage com o sistema |
+| **Descrição**           | Este caso de uso permite que os usuários pesquisem vídeos ou playlists específicas. A busca facilita a descoberta de conteúdos relevantes com base em palavras-chave ou termos de pesquisa fornecidos pelo usuário. |
+| **Fluxo Principal**     | 1. O usuário acessa a ferramenta de busca.<br/> 2. O usuário insere termos de busca para encontrar vídeos ou playlists específicas. |
+
+| **Nome de caso de uso** | Salvar Conteúdos Preferidos |
+|-------------------------|------------------------------|
+| **Ator primário**       | Usuário - qualquer pessoa que interage com o sistema |
+| **Descrição**           | Este caso de uso permite que os usuários salvem conteúdos favoritos para acesso posterior. Os conteúdos salvos podem incluir vídeos específicos ou playlists inteiras que o usuário deseja acessar novamente no futuro. |
+| **Fluxo Principal**     | 1. O usuário encontra um conteúdo que deseja salvar.<br/> 2. O usuário seleciona a opção de salvar ou adicionar aos favoritos. |
+
+| **Nome de caso de uso** | Gerenciamento de Agenda Pessoal |
+|-------------------------|----------------------------------|
+| **Ator primário**       | Usuário - qualquer pessoa que interage com o sistema |
+| **Descrição**           | Este caso de uso permite que os usuários criem, editem, adicionem e removam eventos na sua agenda pessoal. A agenda pessoal pode ser usada para planejar e organizar atividades, compromissos ou lembretes importantes. |
+| **Fluxo Principal**     | 1. O usuário acessa a sua agenda pessoal.<br/> 2. O usuário pode criar, editar, adicionar ou remover eventos na agenda. |
+
+| **Nome de caso de uso** | Pomodoro para Organização de Tempo de Estudo |
+|-------------------------|------------------------------------------------|
+| **Ator primário**       | Usuário - qualquer pessoa que interage com o sistema |
+| **Descrição**           | Este caso de uso permite que os usuários utilizem a técnica de Pomodoro para organizar seu tempo de estudo. O Pomodoro divide o tempo de estudo em intervalos de trabalho e pausa, ajudando os usuários a manterem o foco e a produtividade durante suas sessões de estudo. |
+| **Fluxo Principal**     | 1. O usuário acessa a ferramenta Pomodoro.<br/> 2. O usuário configura o tempo desejado para o estudo e a pausa.<br/> 3. O usuário inicia o temporizador e segue o ciclo de estudo/pausa. |
+
+| **Nome de caso de uso** | Assistir Vídeos |
+|-------------------------|-----------------|
+| **Ator primário**       | Usuário - qualquer pessoa que interage com o sistema |
+| **Descrição**           | Este caso de uso permite que os usuários assistam a vídeos disponíveis no site. Os usuários podem navegar pelo catálogo de vídeos, selecionar o vídeo desejado e reproduzi-lo na tela do dispositivo. |
+| **Fluxo Principal**     | 1. O usuário navega até um vídeo de sua escolha.<br/> 2. O usuário clica no vídeo para iniciar a reprodução.<br/> 3. O vídeo é reproduzido na tela do usuário. |
