@@ -8,12 +8,44 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 As personas levantadas durante o processo de entendimento do problema são apresentadas nas Figuras seguintes.
-|(img/Monalisa.png)| **Mona Lisa**              |
-|--------------------|------------------------------------|
-|**idade**:28 **Ocupação**:Modelo vivo de referência artística e influenciadora digital| Aplicativos: * Instagram* TikTok* YouTube* Pinterest          | 
-| | |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+
+<table>
+     <tbody>
+        <tr>
+            <td colspan=1 rowspan=2><img src='img/Monalisa.png'  width="160" height="200"></td>
+            <td colspan=2 rowspan=1><b>Mona Lisa</b></td>
+        </tr>
+       <tr>
+            <td><b>idade: 28</b><br> <b>Ocupação</b>:<br> Modelo vivo de referência artística e influenciadora digital</td>
+            <td><b>Aplicativos</b>:<br>  * Instagram<br> * TikTok<br> * YouTube<br> * Pinterest<br></td>
+        </tr>
+        <tr>
+            <td><b>Motivações</b>:<br>  * Deixar uma marca no mundo das artes<br>  * Sorrir de forma ambígua<br>  * Causar questionamentos existenciais em filósofos de boteco<br></td>
+          <td><b>Frustrações</b>: <br> * O Bourjois<br> * O patriarcado<br> * Cobrança de 8 USD  para ter perfil premium no X<br> * Não ser levada a sério<br></td>
+          <td><b>Hobbies, História</b>: <br> * Posar de modelo vivo para grandes pintores renascentistas<br> * Foi a musa de um dos mais relevantes mestres da pintura, arquitetura e matemática de seu tempo<br> </td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<table>
+     <tbody>
+        <tr>
+            <td colspan=1 rowspan=2 style="margin: auto;"><img src='img/Jasuscristo.png' width="160px" height="200px" ></td>
+            <td colspan=2 rowspan=1><b>Jesus Cristo</b></td>
+        </tr>
+       <tr>
+            <td><b>idade: 32</b><br> <b>Ocupação</b>:<br> Profeta, messias e milagreiro</td>
+            <td><b>Aplicativos</b>:<br>  * Facebook<br> * LinkedIn<br> * TikTok<br> * Tinder<br></td>
+        </tr>
+        <tr>
+            <td><b>Motivações</b>:<br>  * Salvar a vida de todos os irmãos<br>  * Paz no mundo<br>  * Espalhar a boa nova<br></td>
+          <td><b>Frustrações</b>: <br> * Um cara chamado Judas Iscariot<br> * Mercados dentro de templos<br> * Gente que joga pedra<br> * Lepra?<br></td>
+          <td><b>Hobbies, História</b>: <br> * Conversar<br> * Mágica de rua<br> * Lavar pés de gente desconhecida<br> * Debates a céu aberto<br> * Acampar<br>  * Trilha pelo deserto<br> * Escalada<br>
+ </td>
+        </tr>
+    </tbody>
+</table>
+
 
 Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
