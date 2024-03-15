@@ -9,7 +9,7 @@
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
-
+* Allan Antonio De Oliveira Aguiar
 * Leticia Mateus
 * Pedro de Oliveira Rosas
 * Riniel Rodrigo dos Santos
