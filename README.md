@@ -10,7 +10,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
+* Leticia Mateus
 * Pedro de Oliveira Rosas
 * Riniel Rodrigo dos Santos
 * Nome completo do aluno 4
