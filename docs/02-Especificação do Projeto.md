@@ -42,14 +42,24 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades de interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
 
 ### Requisitos Funcionais
+A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA | 
-|RF-002| A aplicação deve emitir um relatório de tarefas realizadas no mês   | MÉDIA |
+|RF-001| O site permite cadastrar o usuário. | ALTA | 
+|RF-002| O site deve oferecer ao usuário a página de Login para ser efetuado o acesso ao site.   | ALTA  |
+|RF-003| O site deve oferecer ao usuário ferramentas de criação, edição, adição e remoção de playlists do perfil do usuário(CRUD).   | ALTA  |
+|RF-004| O site deve oferecer ao usuário uma área de comentários abaixo dos vídeos.   | MÉDIA  |
+|RF-005| O site deve oferecer ao usuário um sistema onde ele possa fazer anotações e salvá-las.    | ALTA  |
+|RF-006| O site deve permitir visualizar o histórico de vídeos assistidos.   | BAIXO  |
+|RF-007| O site deve oferecer ao usuário ferramentas de busca local de vídeos ou playlists.   | ALTA  |
+|RF-008| O site deve permitir salvar conteúdos preferidos  | BAIXO  |
+|RF-009| O site deve oferecer ao usuário agenda pessoal editável e compartilhável(CRUD).   | MÉDIA  |
+|RF-010| O site deve oferecer ao usuário pomodorometro para ajudar a organizar o tempo de estudo.  | BAIXO  |
+|RF-011| O site deve permitir ao usuário assistir vídeos  | BAIXO  |
 
 ### Requisitos não Funcionais
 
