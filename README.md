@@ -1,33 +1,30 @@
-# TÍTULO DO PROJETO
+# EDUCATUBE
 
-`CURSO`
+`EAD - ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`Eixo 2 - Projeto: Desenvolvimento de uma Aplicação Interativa - Turma 04 - 2024/1`
 
-`SEMESTRE`
+`2º SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Este trabalho é um site que oferece vídeos úteis para ajudar na organização de informações de qualidade sobre diferentes temas em um ambiente planejado para facilitar o foco e a concentração devido à diminuição de estímulos que podem trazer dispersão na hora do estudo.
+
 
 ## Integrantes
 * Allan Antonio De Oliveira Aguiar
 * Leticia Mateus
 * Pedro de Oliveira Rosas
 * Riniel Rodrigo dos Santos
-* Nome completo do aluno 4
+* Marcus Vinícius Valadares Gonçalves
 
 ## Orientador
 
-* Nome completo do professor 1
+* Carlos Alberto Marques Pietrobon
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+O objetivo geral deste trabalho é a criação de um site que oferece vídeos úteis para ajudar na organização de informações de qualidade sobre diferentes temas em um ambiente planejado para facilitar o foco e a concentração devido à diminuição de estímulos que podem trazer dispersão na hora do estudo.
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
-
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+Assim que a primeira versão do sistema estiver disponível teremos descrições de como instalar eventuais dependências e como executar a aplicação.
 
 # Documentação
 
