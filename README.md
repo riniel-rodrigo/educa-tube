@@ -1,14 +1,10 @@
 # EDUCATUBE
 
 # exemplo de edição
-blasfamspodaposfdaposkjfpoajsf
-aosjdpoajspodaj
-asiojfdoaisjdpajiosdp
-<br>
-<br>
-<br>
-<br>
-<br>
+blasfamspodaposfdaposkjfpoajsf<br>
+aosjdpoajspodaj<br>
+asiojfdoaisjdpajiosdp<br>
+
 `EAD - ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
 `Eixo 2 - Projeto: Desenvolvimento de uma Aplicação Interativa - Turma 04 - 2024/1`
