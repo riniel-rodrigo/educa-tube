@@ -8,17 +8,17 @@
 
 Este trabalho é um site que oferece vídeos úteis para ajudar na organização de informações de qualidade sobre diferentes temas em um ambiente planejado para facilitar o foco e a concentração devido à diminuição de estímulos que podem trazer dispersão na hora do estudo.
 
-
 ## Integrantes
-* Allan Antonio De Oliveira Aguiar
-* Leticia Mateus
-* Pedro de Oliveira Rosas
-* Riniel Rodrigo dos Santos
-* Marcus Vinícius Valadares Gonçalves
+
+- Allan Antonio De Oliveira Aguiar
+- Leticia Mateus
+- Pedro de Oliveira Rosas
+- Riniel Rodrigo dos Santos
+- Marcus Vinícius Valadares Gonçalves
 
 ## Orientador
 
-* Carlos Alberto Marques Pietrobon
+- Carlos Alberto Marques Pietrobon
 
 ## Instruções de utilização
 
