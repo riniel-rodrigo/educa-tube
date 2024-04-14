@@ -42,6 +42,14 @@ A equipe está organizada da seguinte maneira:
 
 ### Processo
 Para a organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello, estruturado com listas para cada etapa de desenvolvimento do projeto. Cada tarefa é representada por um cartão, e etiquetas são utilizadas para definir o estado atual de cada tarefa. Essa abordagem permite que a equipe acompanhe o progresso de forma eficiente e mantenha todos os membros informados sobre o status das atividades.
+<figure> 
+  <img src="img/trello.png"
+</figure>
+
+### Etiquetas
+- To Do: Recebe essa etiqueta as tarefas que ainda não foram iniciadas. 
+- Doing: Quando uma tarefa tiver sido iniciada, ela é marcada com essa etiqueta. 
+- Done: Estas etiquetas são colocadas nas tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
 Os ambientes de trabalho escolhidos pelo grupo para desenvolvimento do projeto foram o [Figma](https://www.figma.com/) para elaboração dos wireframes, o [Discord](https://discord.com/) foi utilizado para a criação de um grupo para reuniões para discussão das etapas de trabalho e as dúvidas durante o processo de desenvolvimento da etapa.
 Para a distribuição das tarefas (Gestão da equipe) foi utilizado o [Trello](https://trello.com/pt-BR) 
