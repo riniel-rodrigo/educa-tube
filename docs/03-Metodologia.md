@@ -71,7 +71,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             |aa|
-| Documentos do projeto               | GitHub                             |aa|
-| Projeto de Interface                | Figma                              |aa|
-| Gerenciamento do Projeto            | GitHub                             |aa|
+| Repositório de código fonte         | GitHub                             |[EducaTube](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-educatube)|
+| Documentos do projeto               | GitHub                             |[EducaTube/docs](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-educatube/tree/main/docs)|
+| Projeto de Interface                | Figma                              |[Figma-EducaTube](https://www.figma.com/file/Q5QKGgUfDiAj1rEpmTljW9/Untitled?type=design&node-id=0-1&mode=design&t=5EBQxa6pY8AHGVh5-0)|
+| Gerenciamento do Projeto            | GitHub                             |[Trello-EducaTube](https://trello.com/pt-BR)|
