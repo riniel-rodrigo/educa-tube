@@ -41,16 +41,16 @@ A equipe está organizada da seguinte maneira:
 
 ### Processo
 
-Os ambientes de trabalho escolhidos pelo grupo para desenvolvimento do projeto foram o [Figma] https://www.figma.com/ para elaboração dos wireframes, o [Discord] https://discord.com/ foi utilizado para a criação de um grupo para reuniões para discussão das etapas de trabalho e as dúvidas durante o processo de desenvolvimento da etapa.
-Para a distribuição das tarefas (Gestão da equipe) foi utilizado o [Trello] https://trello.com/pt-BR 
+Os ambientes de trabalho escolhidos pelo grupo para desenvolvimento do projeto foram o [Figma] (https://www.figma.com/) para elaboração dos wireframes, o [Discord] (https://discord.com/) foi utilizado para a criação de um grupo para reuniões para discussão das etapas de trabalho e as dúvidas durante o processo de desenvolvimento da etapa.
+Para a distribuição das tarefas (Gestão da equipe) foi utilizado o [Trello] (https://trello.com/pt-BR) 
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código [Visual Studio Code] https://code.visualstudio.com/
-- Ferramentas de comunicação [Microsoft Teams] https://teams.microsoft.com/ [Discord] https://discord.com/
-- Ferramentas de desenho de tela wireframing [Figma] https://figma.com/
+- Editor de código [Visual Studio Code] (https://code.visualstudio.com/)
+- Ferramentas de comunicação [Microsoft Teams] (https://teams.microsoft.com/) [Discord] (https://discord.com/)
+- Ferramentas de desenho de tela wireframing [Figma] (https://figma.com/)
 
 O editor de código foi escolhido porque ele possui uma integração com o
 sistema de versão. As ferramentas de comunicação utilizadas possuem
