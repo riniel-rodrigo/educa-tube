@@ -63,51 +63,44 @@ A tela Página de busca tem como objetivo possibilitar ao usuário fazer buscas 
     <figcaption> Figura 8 - Página de busca com opções resultados listados</figcaption>
 </figure> 
 
-## Página de instruções de emergência
-A tela Página de instruções de emergência tem como objetivo possibilitar ao usuário voluntário, ao clicar no botão emergência, na qual provém da estrutura básica header, encontrar informações que possam ser importantes e que possam ajudar o voluntário em situações difíceis com os animais encontrados. Com base na estrutura padrão, apenas com alteração na Header, trocando o botão de "emergência" por "pesquisa", temos como componentes uma caixa de seleção que indica motivos fixos das quais você possa estar precisando de ajuda e ao ser escolhida te mostra no corpo da página a informação selecionada. 
+## Página de visualização de videos
+A figura a baixo ilustra o objetivo do projeto demonstrando o video em um ambiente limpo de extimulos desnecessários, desta forma ajudando o usuário a manter a concentração. 
 
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe7.png"
-    <figcaption> Figura 9 - Página de instruções para diversas situações de emergência</figcaption>
+  <img src="img/visuvid.png"
+    <figcaption> Figura 9 - Página de visualização de videos em uma página limpa de estimulos</figcaption>
 </figure> 
 
-## Página de visualização do perfil organizacional
-A tela Página de visualização do perfil organizacional, tem como objetivo mostrar ao usuário organizacional as respectivas informações do seu estabelecimento. Possui estrutura padrão com alteração na Header, contendo apenas logo do site, foto do usuário organizacional e botões de sair e editar, nessa página temos a seguinte divisão: 
-
--Caso o usuário organizacional queira editar suas informações de texto e imagem de perfil, será possível clicando no botão editar do header, localizado ao lado da foto de perfil e do botão sair. Nesse caso ele será direcionado para Página de formulário de usuário organizacional. 
-
--Caso o usuário organizacional queira editar suas fotos e informações da galeria, será possível através do componente Editar galeria, que consiste no botão editar localizado no corpo da página. Você será redirecionado até a Página de edição de galeria. 
+## Página de visualização do perfil 
+A tela Página de visualização do perfil do usuário, tem como objetivo mostrar ao usuário visualização do seu hitórico de navegação e lista de playlists. 
 
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe5.png"
-    <figcaption> Figura 10 - Página de visualização do perfil organizacional pelo próprio</figcaption>
+  <img src="img/visuperfil.png"
+    <figcaption> Figura 10 - Página de visualização do perfil de usuário</figcaption>
 </figure> 
 
-## Página de visualização do perfil organizacional pelo usuário voluntário
-A tela Página de visualização do perfil organizacional, provem da Página de busca, ou seja quando pesquisado alguma Ong ou clínica e clicado no componente **Botão de informações sobre a busca** você será redirecionado até essa tela, na qual tem como objetivo fornecer informações completas ao usuário voluntário sobre o estabelecimento selecionado. No corpo da tela temos a foto do estabelecimento, biografia, horário de funcionamento, telefone, site, endereço, galeria de fotos e avaliação. Com base na estrutura padrão, temos como componentes:
-- Componente de **botão de like**, na qual consiste no botão like e ao ser clicado irá favoritar o estabelecimento; 
-- Componente de **avalie** que consiste em um botão que permite a avaliação do estabelecimento pelo usuário voluntário de 0 a 5 patinhas.
+## Página de edição de playlist
+A tela Página de playlist permite ao usuário editar suas playlists com as seguintes interações:
+- Componente de **adcionar**, na qual consiste no botão que adiciona o presente video a sua playlist selecionada; 
+- Componente de **Criar nova** que consiste em um botão que permite a criação de uma nova playlist.
+- Componente de **excluir** que consiste em um botão que permite excluir um vídeo ou playlist já existente.
 
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe4.png"
-    <figcaption> Figura 11 - Página de visualização do perfil organizacional pelo usuário voluntário</figcaption>
+  <img src="img/ediplay.png"
+    <figcaption> Figura 11 - Página de edição de playlist</figcaption>
 </figure> 
 
-## Página de edição de galeria
-A tela Página de edição de galeria provem da Página de visualização do perfil organizacional pelo usuário voluntário, quando acionado o componente **Editar galeria**, tem como objetivo possibilitar a edição de imagens e informações da galeria, além disso o usuário organizacional pode criar uma nova ou até mesmo deletar uma galeria. Possui estrutura padrão com alteração na Header, contendo apenas logo do site, foto do usuário organizacional e botões de sair e editar, temos os seguintes componentes: 
-- Componente de **Editar nome**, consiste em um botão que permite o usuário organizacional ao ser clicado, editar o nome da galeria;
-- Componente de **Deletar galeria**, consiste em um botão que permite o usuário organizacional ao ser clicado deletar a galeria existente;
-- Componente de **Adicionar imagem**, consiste em um botão que permite o usuário organizacional ao ser clicado selecionar uma imagem para adicionar a galeria;
-- Componente de **Salvar**, consiste em um botão que permite o usuário organizacional ao ser clicado salvar a imagem selecionada no componente **Adicionar imagem**;
-- Componente de **Legenda**, consiste em uma caixa de texto que permite o usuário organizacional criar legendas para as imagens;
-- Componente **Imagem**, é a imagem escolhida pelo usuário organizacional e sua respectiva legenda; Dentro dela possuímos dois componentes:
-  - Componente **Editar imagem**, na qual consiste em um botão que permite o usuário organizacional ao ser clicado editar imagem e legenda;
-  - Componente **Deletar imagem**, na qual consiste em um botão que permite o usuário organizacional ao ser clicado deletar imagem e legenda;
-- Componente de **Criar nova galeria**, consiste em um botão que permite o usuário organizacional ao ser clicado criar uma nova galeria.
+## Página de edição do bloco de notas
+A tela Página de edição do bloco de notas mostra a interação do usuário com o bloco de notas, este pode fazer uso dos seguintes componentes: 
+- Componente de **lista de notas**, consiste em um botão que permite o usuário organar e acessar suas anotações anteriores pelo nome que este escolheu;
+- Componente de **Definir nome**, consiste em uma área de edição de texto onde o usuário pode escrever o nome pelo qual gostaria de se referir a sua atual anotação;
+- Componente de **Área de Anotação**, consiste em uma área de edição de texto em que o usuário pode fazer e editar suas anotações;
+- Componente de **Botão salvar**, consiste em um botão que permite ao usuário salvar sua atual anotação;
+- Componente de **Botão deletar**, consiste em um botão que permite ao usuário deletar sua atual anotação;
   
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe6.png"
-    <figcaption> Figura 12 - Página de edição da galeria de imagens do usuário organizacional</figcaption>
+  <img src="img/bloconotas.png"
+    <figcaption> Figura 12 - Página de edição do bloco de notas</figcaption>
 </figure> 
 
 ## Página de recuperação de senha
