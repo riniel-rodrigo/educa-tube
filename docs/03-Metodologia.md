@@ -50,9 +50,9 @@ Para a organização e distribuição das tarefas do projeto, a equipe está uti
 - To Do: Recebe essa etiqueta as tarefas que ainda não foram iniciadas. 
 - Doing: Quando uma tarefa tiver sido iniciada, ela é marcada com essa etiqueta. 
 - Done: Estas etiquetas são colocadas nas tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
-
-Os ambientes de trabalho escolhidos pelo grupo para desenvolvimento do projeto foram o [Figma](https://www.figma.com/) para elaboração dos wireframes, o [Discord](https://discord.com/) foi utilizado para a criação de um grupo para reuniões para discussão das etapas de trabalho e as dúvidas durante o processo de desenvolvimento da etapa.
-Para a distribuição das tarefas (Gestão da equipe) foi utilizado o [Trello](https://trello.com/pt-BR) 
+<figure> 
+  <img src="img/etiquetas-trello.png"
+</figure>
 
 ### Ferramentas
 
