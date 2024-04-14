@@ -56,11 +56,29 @@ Para a distribuição das tarefas (Gestão da equipe) foi utilizado o [Trello](h
 
 ### Ferramentas
 
+Para o desenvolvimento do projeto, utilizamos um conjunto de ferramentas cuidadosamente selecionados para otimizar a colaboração e o gerenciamento de tarefas. Nossa equipe empregou as seguintes:
+
+- Repositório de Código Fonte - [GitHub](https://github.com/)
+- Documentos do Projeto - [GitHub](https://github.com/)
+- Projeto de Interface - [Figma](https://www.figma.com/)
+- Arquitetura e diagramas - [LucidChart](https://www.lucidchart.com/pages/pt)
+- Gerenciamento do Projeto - [GitHub](https://github.com/)
+- Hospedagem - [GitHub Pages](https://pages.github.com/)
+- Editor de código - [Visual Studio Code](https://code.visualstudio.com/)
+- Ferramentas de comunicação - [Microsoft Teams](https://teams.microsoft.com/) [Discord](https://discord.com/)
+
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
+
+| AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
+|-------------------------------------|------------------------------------|----------------------------------------|
+| Repositório de código fonte         | GitHub                             |aa|
+| Documentos do projeto               | GitHub                             |aa|
+| Projeto de Interface                | Figma                              |aa|
+| Gerenciamento do Projeto            | GitHub                             |aa|
+
 As ferramentas empregadas no projeto são:
 
-- Editor de código [Visual Studio Code](https://code.visualstudio.com/)
-- Ferramentas de comunicação [Microsoft Teams](https://teams.microsoft.com/) [Discord](https://discord.com/)
-- Ferramentas de desenho de tela wireframing [Figma](https://figma.com/)
+
 
 O editor de código foi escolhido porque ele possui uma integração com o
 sistema de versão. As ferramentas de comunicação utilizadas possuem
