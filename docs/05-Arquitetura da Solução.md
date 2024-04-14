@@ -25,9 +25,11 @@ A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
 
 ## Projeto da Base de Dados
 
-O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
+O Projeto da Base de Dados é uma representação das entidades e das relações identificadas no Modelo ER. Essa representação é feita através de tabelas, que incluem colunas e chaves primárias/estrangeiras essenciais para uma correta representação das restrições de integridade.
  
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
+<img src="img/Modelo lógico EDUCATUBE.png">
+
+> - [Acesse esse diagrama no LucidChart](https://lucid.app/lucidchart/e7c2a9cd-fb35-46ce-af13-85bfe759ccdd/edit?view_items=ghbrXCcMZqtv&invitationId=inv_76cd30f4-3040-47a3-92f2-03b72aeb332f)
 
 ## Tecnologias Utilizadas
 
