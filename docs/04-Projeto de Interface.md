@@ -103,91 +103,34 @@ A tela Página de edição do bloco de notas mostra a interação do usuário co
     <figcaption> Figura 12 - Página de edição do bloco de notas</figcaption>
 </figure> 
 
-## Página de recuperação de senha
-A tela Página de recuperação de senha provém da tela Página de login, quando o usuário tanto voluntário quanto organizacional esquecer a senha ele pode acionar o componente **Esqueci minha senha** (botão de esqueci minha senha) na tela de Página de login e ele será redirecionado até essa página, na qual tem estrutura padrão, exceto não possuir header e temos os seguintes componentes: 
-- Componente de **E-mail**, o usuário deve digitar um e-mail na qual possa receber um código digitável para efetuar a alteração de senha;
-- Componente de **Enviar**, consiste em um botão que permite o usuário ao ser clicado enviar o e-mail para receber o código digitável;
-- Componente de **Código digitavel**, consiste em um código que será enviado para o e-mail digitado e irá  validar a troca de senhas do usuário;
-- Componente de **Nova senha**, o usuário deve digitar a nova senha desejada conforme os padrões estabelecidos pelo site;
-- Componente de **Confirmar senha**, o usuário deve digitar novamente a senha para que possa confirmar e verificar se a senha desejada está correta;
-- Componente de **Concluir**, consiste em um botão que permite o usuário ao ser clicado concluir sua redefinição de senha;
-- Componente de **Descartar**, consiste em um botão que permite o usuário ao ser clicado descartar a alteração de senha.
+## Página de calendário
+A Página de calendário permite ao usuário interagir com o calendário criando, editando ou deletando eventos no calendário, este pode fazer uso dos seguintes componentes: 
+- Componente de **Criar**, o usuário pode interagir clicando na data que preferir criando um evento de sua escolha;
+- Componente de **editar**, o usuário pode interagir clicando no evento que preferir para editar este mesmo evento;
+- Componente de **Cancelar**, o usuário pode interagir clicando no evento que preferir cancelando este mesmo evento;
 
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe9.png"
-    <figcaption> Figura 13 - Página de recuperação de senha</figcaption>
+  <img src="img/calendario.png"
+    <figcaption> Figura 13 - Página de calendário</figcaption>
 </figure> 
 
-## Página de cancelamento de perfil
-A tela Página de cancelamento de perfil provém de duas telas Página de formulário de usuário voluntário e Página de formulário de usuário organizacional, ao acessar o botão Desativar Perfil, você será direcionado para essa tela, na qual tem como objetivo permitir que tanto usuário voluntário quanto o organizacional desative sua conta no site. Tem estrutura padrão, exceto não possuir header e temos os seguintes componentes: 
-- Componentede **Motivo do cancelamento**, consiste em uma caixa de texto que pede ao usuário que nos fale o motivo da desativação;
-- Componente **Cancelar perfil**, consiste em um botão que, quando clicado pelo usuário, confirma o cancelamento de sua conta no site.
+## Página de formulário do pomodorómetro
+A tela Página de formulário de pomodorómetro permite ao usuário configurar seu pomodorómetro de acordo com suas necessidades de uso segundo as intruções descritas na página, ele poderá intergir com os seguintes componentes: 
+- Componente **Duração de intervalo**, consiste em uma caixa de opção estilo radio que pede ao usuário selecionar a duração dos intervalos medidos pelo pomodorómetro;
+- Componente **quantidade de intervalos**, consiste em uma caixa de opção no estilo radio que pede ao usuário definir quantos intervalos pomodoro ele quer usar;
+- Componente **Travamento de tela**, consiste em um botão tipo on/off que permite ao usuário definir se a tela ficará travada durante o intervalo entre os pomodoros.
 
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe8.png"
-    <figcaption> Figura 14 - Página com formulário de cancelamento de perfil</figcaption>
+  <img src="img/pomodo.png"
+    <figcaption> Figura 14 - Página com formulário do pomodorómetro</figcaption>
 </figure> 
 
-### Protótipo de baixa fidelidade
+## Janela de cancelamento de perfil
+A janela de cancelamento de perfil permitem ao usuário desativar Perfil, nela ele pode interagir com os seguintes componentes: 
+- Componentede **botão sair**, consiste em um botão que sai da janela de cancelamento;
+- Componente **botão cancelar**, consiste em um botão que, quando clicado pelo usuário, confirma o cancelamento de sua conta no site.
 
-Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
-
-## Página de login
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe0.png"
-    <figcaption>Figura 15 - Página de login e registro dos usuários</figcaption>
-</figure> 
-
-## Página de formulário de usuário voluntário
-<figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe1.png"
-    <figcaption>Figura 16 - Página com o formulário de informações do usuário voluntário</figcaption>
-</figure> 
-
-## Página de formulário de usuário organizacional
-<figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe2.png"
-    <figcaption> Figura 17 - Página com o formulário de informações do usuário organizacional</figcaption>
-</figure> 
-
-## Página de busca
-<figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe3.png"
-    <figcaption> Figura 18 - Página de busca com opções pré-definidas</figcaption>
-</figure> 
-
-## Página de instruções de emergência
-<figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe8.png"
-    <figcaption> Figura 19 - Página de instruções para diversas situações de emergência</figcaption>
-</figure> 
-
-## Página de visualização do perfil organizacional
-<figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe6.png"
-    <figcaption> Figura 20 - Página de visualização do perfil organizacional pelo próprio</figcaption>
-</figure> 
-
-## Página de visualização do perfil organizacional pelo usuário voluntário
-<figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe5.png"
-    <figcaption> Figura 21 - Página de visualização do perfil organizacional pelo usuário voluntário</figcaption>
-</figure> 
-
-## Página de edição de galeria
-<figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe7.png"
-    <figcaption> Figura 22 - Página de edição da galeria de imagens do usuário organizacional</figcaption>
-</figure> 
-
-## Página de recuperação de senha
-<figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe10.png"
-    <figcaption> Figura 23 - Página de recuperação de senha</figcaption>
-</figure> 
-
-## Página de cancelamento de perfil
-<figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe9.png"
-    <figcaption> Figura 24 - Página com formulário de cancelamento de perfil</figcaption>
+  <img src="img/cancela.png"
+    <figcaption> Figura 15 - Página com formulário de cancelamento de perfil</figcaption>
 </figure> 
