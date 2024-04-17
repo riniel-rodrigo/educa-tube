@@ -1,8 +1,12 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
+## Fluxograma
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+
+<img src="img/Fluxograma EducaTube.png">
+
+> - [Acesse esse fluxograma no LucidChart](https://lucid.app/lucidchart/94cae20b-1ec2-42ec-8f46-6a857707c20e/edit?viewport_loc=-505%2C-266%2C2958%2C1377%2CLTVmQ7iaTWVs&invitationId=inv_90a23dd4-7637-4472-b7ef-8d4c6ec1d818)
 
 ## Diagrama de Classes
 
@@ -10,24 +14,25 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
 
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
+<img src="img/Diagrama de classe EducaTube.png">
+
+> - [Acesse esse diagrama no LucidChart]( https://lucid.app/lucidchart/8c80760e-82d6-40f4-97df-bb319bacdb86/edit?viewport_loc=-3335%2C-2625%2C3786%2C1763%2C0_0&invitationId=inv_0d9661c8-7535-487e-b6bd-86904ca086c4)
 
 ## Modelo ER (Projeto Conceitual)
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
+<img src="img/MER (Projeto Conceitual) educaTube.png">
 
-A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+> - [Acesse esse diagrama no LucidChart](https://lucid.app/lucidchart/d432f7a9-344d-40be-967b-499694999273/edit?invitationId=inv_a84ea742-9bb4-4ca4-ba38-9c5ebb19822a&page=0_0#)
 
 ## Projeto da Base de Dados
 
-O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
+O Projeto da Base de Dados é uma representação das entidades e das relações identificadas no Modelo ER. Essa representação é feita através de tabelas, que incluem colunas e chaves primárias/estrangeiras essenciais para uma correta representação das restrições de integridade.
  
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
+<img src="img/Modelo lógico EDUCATUBE.png">
+
+> - [Acesse esse diagrama no LucidChart](https://lucid.app/lucidchart/e7c2a9cd-fb35-46ce-af13-85bfe759ccdd/edit?view_items=ghbrXCcMZqtv&invitationId=inv_76cd30f4-3040-47a3-92f2-03b72aeb332f)
 
 ## Tecnologias Utilizadas
 
