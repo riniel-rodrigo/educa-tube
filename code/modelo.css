@@ -1,5 +1,5 @@
 /* Neste documento estão as configuração de exemplo usadas na página "modelo" para o site EDUCATUBE*/
-/* Este documento seguira a ordem de organização semelhante a um documento HTML, head no topo seguida
+/* Este documento seguirá ordem de organização semelhante a um documento HTML, head no topo seguida
  por body e assim por diante.
  Antes de cada parte relevante exitirá um comentário apontando à que se refere esta sessão. */
 
@@ -20,9 +20,12 @@ header {
     min-height: 56px;
     width: 100%;
     background-color: rgb(8, 87, 243);
+    z-index: 2;
 }
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+
+}
 
 /* main */
 
@@ -34,14 +37,16 @@ main {
     font-size: 1.5rem;
 }
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+
+}
 
 
 /* footer */
 
-/* Para que o footer se mantenha no final do conteúdo da página e não no final da tela este deve 
-ficar dentro do <main> no documento HTML, mas suas configurações estão descritas separadamente para
-facilitar leitura e entendimento. */
+/* Para que o footer se mantenha no final da página e não no final da tela este deve 
+ficar dentro do div <main> no documento HTML, mas suas configurações estão descritas 
+separadamente para facilitar leitura e entendimento. */
 
 footer {
     position: absolute;
@@ -51,6 +56,8 @@ footer {
     width: 100%;
 }
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+
+}
 
 /* Os estilos definidos neste documento servem de referência para a edição das demais páginas.*/
