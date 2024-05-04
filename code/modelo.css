@@ -3,4 +3,54 @@
  por body e assim por diante.
  Antes de cada parte relevante exitirá um comentário apontando à que se refere esta sessão. */
 
- /* */
+/* Estilo genério ou de uso em mais de uma página */
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* header */
+
+header {
+    position: absolute;
+    top: 0;
+    max-height: 10%;
+    min-height: 56px;
+    width: 100%;
+    background-color: rgb(8, 87, 243);
+}
+
+@media only screen and (max-width: 480px) {}
+
+/* main */
+
+main {
+    z-index: 1;
+    background-color: rgb(246, 246, 246);
+    color: rgb(0, 51, 153);
+    font-family: ;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 480px) {}
+
+
+/* footer */
+
+/* Para que o footer se mantenha no final do conteúdo da página e não no final da tela este deve 
+ficar dentro do <main> no documento HTML, mas suas configurações estão descritas separadamente para
+facilitar leitura e entendimento. */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    max-height: 10%;
+    min-height: 56px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 480px) {}
+
+/* Os estilos definidos neste documento servem de referência para a edição das demais páginas.*/
