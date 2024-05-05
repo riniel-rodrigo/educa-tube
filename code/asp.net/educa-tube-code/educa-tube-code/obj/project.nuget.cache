@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "C4h+W6Ek+YcM1b4pUy+IOUG77PhXksjkAIKaLEu2lY36DnKgbOvYBDr5RE1cazRIKnm4fqXg1uxUvoVY0Iexvg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\apocr\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\educa-tube-code.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\apocr\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512"
+  ],
+  "logs": []
+}
