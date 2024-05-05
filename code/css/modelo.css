@@ -23,34 +23,40 @@ header {
     background-color: rgb(8, 87, 243);
     z-index: 2;
     align-items: center;
-    justify-content: space-evenly;
 }
 
-.img-perfil-header{
+.img-perfil-header {
     width: 40px;
     height: 40px;
     border-radius: 20px;
     background-color: white;
-    position: absolute;
-    left: 30px;
+    margin-left: 30px;
+    margin-right: auto;
 }
 
-.btn-exit{
-    position: absolute;
-    right: 30px;
+.btn-exit {
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
-.btn-pomo{
-
+.btn-pomo {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-.btn-calend{
-    
+.btn-calend {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-@media only screen and (max-width: 480px) {
-
+.form-busca{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
 }
+
+@media only screen and (max-width: 480px) {}
 
 /* main */
 
@@ -63,9 +69,7 @@ main {
     overflow-y: auto;
 }
 
-@media only screen and (max-width: 480px) {
-
-}
+@media only screen and (max-width: 480px) {}
 
 
 /* footer */
@@ -82,8 +86,6 @@ footer {
     width: 100%;
 }
 
-@media only screen and (max-width: 480px) {
-
-}
+@media only screen and (max-width: 480px) {}
 
 /* Os estilos definidos neste documento servem de referência para a edição das demais páginas.*/
