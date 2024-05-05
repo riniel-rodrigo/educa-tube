@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "n3eaJ4xy2PCPGmIBD1MHmAXQW3475CC7YyH7KJgU4/w8XvlsV5cQOA+qGVu+JkBvN/oINTMUk9Cxmp1XVjsO8A==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\educa-tube\\code\\asp.net\\educa-tube\\educa-tube\\educa-tube.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\apocr\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512"
+  ],
+  "logs": []
+}
