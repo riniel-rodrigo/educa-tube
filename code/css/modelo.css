@@ -14,6 +14,7 @@ body {
 /* header */
 
 header {
+    display: flex;
     position: absolute;
     top: 0;
     max-height: 10%;
@@ -21,6 +22,30 @@ header {
     width: 100%;
     background-color: rgb(8, 87, 243);
     z-index: 2;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-perfil-header{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    left: 30px;
+}
+
+.btn-exit{
+    position: absolute;
+    right: 30px;
+}
+
+.btn-pomo{
+
+}
+
+.btn-calend{
+    
 }
 
 @media only screen and (max-width: 480px) {
