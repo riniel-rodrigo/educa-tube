@@ -11,11 +11,11 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("e06bd27f-42b3-4c78-9673-43de49ef1141")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("00d6b01d-7141-4a53-ac4a-c03356bafac7")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("educa-tube")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a0831ccd4ad74ae2e985cef915fa7260c0823da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("educa-tube")]
 [assembly: System.Reflection.AssemblyTitleAttribute("educa-tube")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

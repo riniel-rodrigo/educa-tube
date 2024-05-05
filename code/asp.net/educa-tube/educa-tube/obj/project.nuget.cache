@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n3eaJ4xy2PCPGmIBD1MHmAXQW3475CC7YyH7KJgU4/w8XvlsV5cQOA+qGVu+JkBvN/oINTMUk9Cxmp1XVjsO8A==",
+  "dgSpecHash": "4CQWdwkL5T5zm4dd2VTEujYNFKw8m5im44Lc6/LfnX7rW4xg5HrPtPRJ7USy6/El1taAD2AFNBfvQBQERxrfQQ==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\educa-tube\\code\\asp.net\\educa-tube\\educa-tube\\educa-tube.csproj",
+  "projectFilePath": "C:\\Users\\apocr\\OneDrive\\Área de Trabalho\\educa-tube\\educa-tube\\educa-tube.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\apocr\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512"
   ],

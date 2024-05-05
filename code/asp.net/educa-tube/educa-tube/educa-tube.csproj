@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>educa_tube</RootNamespace>
-    <UserSecretsId>e06bd27f-42b3-4c78-9673-43de49ef1141</UserSecretsId>
+    <UserSecretsId>00d6b01d-7141-4a53-ac4a-c03356bafac7</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 

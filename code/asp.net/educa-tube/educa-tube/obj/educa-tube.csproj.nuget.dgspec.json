@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\educa-tube\\code\\asp.net\\educa-tube\\educa-tube\\educa-tube.csproj": {}
+    "C:\\Users\\apocr\\OneDrive\\Área de Trabalho\\educa-tube\\educa-tube\\educa-tube.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\educa-tube\\code\\asp.net\\educa-tube\\educa-tube\\educa-tube.csproj": {
+    "C:\\Users\\apocr\\OneDrive\\Área de Trabalho\\educa-tube\\educa-tube\\educa-tube.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\educa-tube\\code\\asp.net\\educa-tube\\educa-tube\\educa-tube.csproj",
+        "projectUniqueName": "C:\\Users\\apocr\\OneDrive\\Área de Trabalho\\educa-tube\\educa-tube\\educa-tube.csproj",
         "projectName": "educa-tube",
-        "projectPath": "C:\\Projects\\educa-tube\\code\\asp.net\\educa-tube\\educa-tube\\educa-tube.csproj",
+        "projectPath": "C:\\Users\\apocr\\OneDrive\\Área de Trabalho\\educa-tube\\educa-tube\\educa-tube.csproj",
         "packagesPath": "C:\\Users\\apocr\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\educa-tube\\code\\asp.net\\educa-tube\\educa-tube\\obj\\",
+        "outputPath": "C:\\Users\\apocr\\OneDrive\\Área de Trabalho\\educa-tube\\educa-tube\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\apocr\\AppData\\Roaming\\NuGet\\NuGet.Config",
