@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\educa-tube-code.props" />
+</Project>
