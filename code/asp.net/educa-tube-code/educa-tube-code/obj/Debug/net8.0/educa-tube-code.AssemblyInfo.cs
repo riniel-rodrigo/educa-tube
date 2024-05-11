@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("educa-tube-code")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f6aba00c0023530151b552302a2ab2da9619d1e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2a076a79790ee04f85bf9a5feef8231a93619cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("educa-tube-code")]
 [assembly: System.Reflection.AssemblyTitleAttribute("educa-tube-code")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
