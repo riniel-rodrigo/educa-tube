@@ -3,8 +3,11 @@
     "",
     "\\code",
     "\\code\\asp.net",
-    "\\code\\asp.net\\educa-tube-code"
+    "\\code\\asp.net\\educa-tube-code",
+    "\\code\\asp.net\\educa-tube-code\\educa-tube-code",
+    "\\code\\asp.net\\educa-tube-code\\educa-tube-code\\wwwroot",
+    "\\code\\asp.net\\educa-tube-code\\educa-tube-code\\wwwroot\\css"
   ],
-  "SelectedNode": "\\educa-tube-code.sln",
+  "SelectedNode": "\\code\\asp.net\\educa-tube-code\\educa-tube-code\\wwwroot\\css\\site.css",
   "PreviewInSolutionExplorer": false
 }
