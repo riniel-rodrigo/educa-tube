@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|c:\\users\\spike\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|solutionrelative:educa-tube-code\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|c:\\users\\spike\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|solutionrelative:educa-tube-code\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "educa-tube-code\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "educa-tube-code\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAALIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-09T09:29:14.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "educa-tube-code\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "educa-tube-code\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T09:15:35.818Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
