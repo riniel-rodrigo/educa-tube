@@ -1,6 +1,6 @@
-﻿]namespace educa_tube_code.Models
+﻿namespace educa_tube_code.Models
 {
-    public class comentario
+    public class Comentario
     {
     }
 }

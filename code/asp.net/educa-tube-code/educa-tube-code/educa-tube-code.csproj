@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <Nullable>desable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>educa_tube_code</RootNamespace>
     <UserSecretsId>680945b4-109f-462e-95ee-6c80e19d14ef</UserSecretsId>
