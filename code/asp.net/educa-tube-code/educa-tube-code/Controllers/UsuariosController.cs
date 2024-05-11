@@ -17,7 +17,24 @@ namespace educa_tube_code.Controllers
         {
             var dados = await _context.Usuarios.ToListAsync();
 
-            return View(dados); 
+            return View(dados);
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+       
+        [HttpPost]
+        public async Task<IActionResult> Create(Usuario usuario)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Usuarios.Add(usuario);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+            return View(usuario);
         }
     }
 }
