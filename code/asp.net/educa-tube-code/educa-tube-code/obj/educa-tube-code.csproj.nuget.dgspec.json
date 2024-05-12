@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\educa-tube-code.csproj": {}
+    "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\educa-tube-code.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\educa-tube-code.csproj": {
+    "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\educa-tube-code.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\educa-tube-code.csproj",
+        "projectUniqueName": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\educa-tube-code.csproj",
         "projectName": "educa-tube-code",
-        "projectPath": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\educa-tube-code.csproj",
-        "packagesPath": "C:\\Users\\Utilizador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\obj\\",
+        "projectPath": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\educa-tube-code.csproj",
+        "packagesPath": "C:\\Users\\Spike\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Utilizador\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Spike\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
