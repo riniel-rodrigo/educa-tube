@@ -13,11 +13,12 @@ namespace educa_tube_code.Models
         [Required(ErrorMessage = "Obrigatório informar o nome!")]
         public string Nome { get; set; }
 
-        [Required(ErrorMessage ="Obrigatório informar E-mail!")]
+        [Required(ErrorMessage = "Obrigatório informar E-mail!")]
         public string Email { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar Senha!")]
         public string Senha { get; set; }
-        public  string DataCadastro { get; set; }
+        public string DataCadastro { get; set; }
+        public bool KeepLoggedIn { get; set; }
     }
 }

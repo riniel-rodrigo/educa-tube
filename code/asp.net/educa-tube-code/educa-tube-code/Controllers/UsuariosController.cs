@@ -1,4 +1,5 @@
 ﻿using educa_tube_code.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,12 +14,6 @@ namespace educa_tube_code.Controllers
             _context = context;
             
         }
-        public async Task<IActionResult> Index()
-        {
-            var dados = await _context.Usuarios.ToListAsync();
-
-            return View(dados);
-        }
 
         public IActionResult Create()
         {
@@ -30,9 +25,10 @@ namespace educa_tube_code.Controllers
         {
             if (ModelState.IsValid)
             {
+                usuario.KeepLoggedIn = false;
                 _context.Usuarios.Add(usuario);
-                await _context.SaveChangesAsync();
-                return RedirectToAction("Index");
+                 _context.SaveChanges();
+                return RedirectToAction("Index", "Home");
             }
             return View(usuario);
         }
