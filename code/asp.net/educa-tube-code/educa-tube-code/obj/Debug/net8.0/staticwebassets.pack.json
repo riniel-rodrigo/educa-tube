@@ -5,12 +5,52 @@
       "PackagePath": "staticwebassets\\educa-tube-code.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\wwwroot\\css\\modelo.css",
+      "PackagePath": "staticwebassets\\css\\modelo.css"
+    },
+    {
       "Id": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\wwwroot\\img\\calend.png",
+      "PackagePath": "staticwebassets\\img\\calend.png"
+    },
+    {
+      "Id": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\wwwroot\\img\\eraser.png",
+      "PackagePath": "staticwebassets\\img\\eraser.png"
+    },
+    {
+      "Id": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\wwwroot\\img\\exit.png",
+      "PackagePath": "staticwebassets\\img\\exit.png"
+    },
+    {
+      "Id": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\wwwroot\\img\\logopucmg.png",
+      "PackagePath": "staticwebassets\\img\\logopucmg.png"
+    },
+    {
+      "Id": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\wwwroot\\img\\lupa.png",
+      "PackagePath": "staticwebassets\\img\\lupa.png"
+    },
+    {
+      "Id": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\wwwroot\\img\\perf.png",
+      "PackagePath": "staticwebassets\\img\\perf.png"
+    },
+    {
+      "Id": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\wwwroot\\img\\plicon.jpg",
+      "PackagePath": "staticwebassets\\img\\plicon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\wwwroot\\img\\pomo.png",
+      "PackagePath": "staticwebassets\\img\\pomo.png"
+    },
+    {
+      "Id": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\wwwroot\\img\\save.png",
+      "PackagePath": "staticwebassets\\img\\save.png"
     },
     {
       "Id": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\wwwroot\\js\\site.js",

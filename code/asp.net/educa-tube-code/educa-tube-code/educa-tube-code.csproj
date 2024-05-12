@@ -28,7 +28,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Home\img\" />
+    <Folder Include="wwwroot\img\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\img\calend.png" />
+    <None Include="wwwroot\img\eraser.png" />
+    <None Include="wwwroot\img\exit.png" />
+    <None Include="wwwroot\img\logopucmg.png" />
+    <None Include="wwwroot\img\lupa.png" />
+    <None Include="wwwroot\img\perf.png" />
+    <None Include="wwwroot\img\plicon.jpg" />
+    <None Include="wwwroot\img\pomo.png" />
+    <None Include="wwwroot\img\save.png" />
   </ItemGroup>
 
 </Project>
