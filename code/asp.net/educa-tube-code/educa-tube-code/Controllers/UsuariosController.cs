@@ -26,6 +26,7 @@ namespace educa_tube_code.Controllers
             if (ModelState.IsValid)
             {
                 usuario.KeepLoggedIn = false;
+                usuario.DataCadastro = DateTime.Now.ToString();
                 _context.Usuarios.Add(usuario);
                  _context.SaveChanges();
                 return RedirectToAction("Index", "Home");
