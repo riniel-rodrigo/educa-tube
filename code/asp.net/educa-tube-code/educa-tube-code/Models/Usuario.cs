@@ -20,5 +20,7 @@ namespace educa_tube_code.Models
         public string Senha { get; set; }
         public string DataCadastro { get; set; }
         public bool KeepLoggedIn { get; set; }
+
+        public List<Nota> Notas { get; set; }
     }
 }

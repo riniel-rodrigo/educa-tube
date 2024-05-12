@@ -1,0 +1,39 @@
+﻿@model educa_tube_code.Models.Nota
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" type="text/css" href="~/css/NotasCreate.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+<div class="mainDiv">
+    <h4>Nova nota</h4>
+    <hr />
+
+    <div class="divForm" >
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly"></div>
+            <div>
+                <input class="inp inpTitle" asp-for="Titulo" placeholder="Título" />
+                <span asp-validation-for="Titulo"></span>
+            </div>
+            <div>
+                <textarea rows="8" class="inp inpContent" asp-for="Conteudo" placeholder="Comece a escrever..."></textarea>
+                @* <input asp-for="Conteudo" class="form-control" /> *@
+                <span asp-validation-for="Conteudo"></span>
+            </div>
+            <div class="userCamp" >
+                <label asp-for="UsuarioId"></label>
+                <select asp-for="UsuarioId" asp-items="ViewBag.UsuarioId"></select>
+            </div>
+            <div class="buttonsDiv">
+                <input class="saveButton" type="submit" value="Salvar"/>
+                <a class="saveButton backButton" asp-action="Index"><i class="bi bi-arrow-bar-left"></i> Voltar</a>
+            </div>
+        </form>
+    </div>
+</div>
+

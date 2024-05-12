@@ -1,0 +1,79 @@
+﻿
+.userCamp{
+    display:none;
+}
+
+.mainDiv {
+    padding: 3rem 0rem 3rem 0rem;
+}
+
+.divForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.inp {
+    all: unset;
+    border: none;
+    font-size: 1.5rem;
+    width:90%;
+/*    border:solid 2px red;*/
+}
+
+.inpTitle {
+    font-weight: 700;
+}
+
+.inpContent {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.inp::placeholder {
+    font-size: 1.9rem;
+    font-weight: 300;
+    color:#6c757d;
+    opacity:0.7;
+}
+
+.buttonsDiv{
+    display:flex;
+    justify-content:space-between;
+}
+
+.saveButton{
+    all:unset;
+}
+
+.saveButton {
+    background-color: #0A66C2;
+    border: none;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0.8rem;
+    transition-duration: 0.4s;
+    border: 2px solid #0A66C2;
+}
+
+    .saveButton:hover {
+        background-color: white;
+        color: black;
+        border: 2px solid #0A66C2;
+    }
+
+.backButton {
+    background-color: gray;
+    border: 2px solid gray;
+}
+
+.saveButton:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid gray;
+}
+
+    

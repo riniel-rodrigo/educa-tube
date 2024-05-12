@@ -9,5 +9,7 @@ namespace educa_tube_code.Models
 
         public DbSet<Usuario> Usuarios { get; set; }
 
+        public DbSet<Nota> Notas { get; set; }
+
     }
 }

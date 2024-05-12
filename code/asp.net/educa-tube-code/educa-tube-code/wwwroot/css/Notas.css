@@ -1,0 +1,102 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+a{
+    text-decoration:none;
+    color:#000;
+}
+
+.ContainerMain {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 3rem 0rem 3rem 0rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    width:100%;
+}
+
+.ContainerCards {
+    /*    display:grid;
+    grid-template-columns: repeat(3, 1fr);*/
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 2rem;
+/*    border: green solid 2px;*/
+}
+
+.addNote {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.noteCard {
+    padding: 0.7rem;
+    width: 20rem;
+    background-color: #FFF;
+    color: #000;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+}
+
+.noteCard .noteTitleDiv {
+    display:flex;
+    justify-content:space-between;
+    font-size:1rem;
+    font-weight:400;
+
+}
+
+.noteTitle {
+    max-width: 13rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.icons i{
+    color:#0A66C2;
+}
+
+.btnDelete:hover{
+    color:red;
+}
+
+.btnEdit:hover {
+    color: #FEE082;
+}
+
+.btnView{
+    font-size:1.3rem;
+}
+
+.btnView:hover {
+    color:green;
+}
+
+.conteudoPrev {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #6c757d;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.noteDate {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #6c757d;
+}
