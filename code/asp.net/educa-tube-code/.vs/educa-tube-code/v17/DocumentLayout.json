@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\",
+  "WorkspaceRootPath": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|c:\\users\\utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|solutionrelative:educa-tube-code\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|c:\\users\\utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|solutionrelative:educa-tube-code\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|c:\\users\\utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|solutionrelative:educa-tube-code\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|c:\\users\\utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|solutionrelative:educa-tube-code\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|c:\\users\\utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|c:\\users\\spike\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|solutionrelative:educa-tube-code\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|c:\\users\\spike\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|solutionrelative:educa-tube-code\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|c:\\users\\spike\\documents\\github\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|solutionrelative:educa-tube-code\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +22,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "educa-tube-code\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "educa-tube-code\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T01:26:00.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "educa-tube-code\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "educa-tube-code\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T01:25:11.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "educa-tube-code\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Spike\\Documents\\GitHub\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "educa-tube-code\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T01:22:18.54Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -39,71 +70,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "educa-tube-code\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "educa-tube-code\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAABMAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T23:15:51.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Views\\Usuarios\\Create.cshtml",
-              "RelativeDocumentMoniker": "educa-tube-code\\Views\\Usuarios\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Views\\Usuarios\\Create.cshtml",
-              "RelativeToolTip": "educa-tube-code\\Views\\Usuarios\\Create.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACsAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T23:08:42.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Views\\Usuarios\\Index.cshtml",
-              "RelativeDocumentMoniker": "educa-tube-code\\Views\\Usuarios\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Views\\Usuarios\\Index.cshtml",
-              "RelativeToolTip": "educa-tube-code\\Views\\Usuarios\\Index.cshtml",
-              "ViewState": "AQIAABAAAAAAAAAAAAAIwCEAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T21:58:19.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "educa-tube-code\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "educa-tube-code\\Controllers\\UsuariosController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAuwBYAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T21:27:23.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "educa-tube-code\\Models\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "educa-tube-code\\Models\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T21:53:10.129Z",
-              "EditorCaption": ""
             }
           ]
         }
