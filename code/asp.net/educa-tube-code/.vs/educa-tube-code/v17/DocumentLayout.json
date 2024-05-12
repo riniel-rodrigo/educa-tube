@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|c:\\users\\utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|solutionrelative:educa-tube-code\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|c:\\users\\utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{17D16977-3481-4954-8BDC-CBB237B09D23}|educa-tube-code\\educa-tube-code.csproj|solutionrelative:educa-tube-code\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,30 +43,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -77,8 +57,37 @@
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\.gitignore",
+              "RelativeDocumentMoniker": "educa-tube-code\\.gitignore",
+              "ToolTip": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\.gitignore",
+              "RelativeToolTip": "educa-tube-code\\.gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-12T17:34:11.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "educa-tube-code\\Views\\Shared\\_Layout.cshtml",
@@ -91,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "educa-tube-code\\Models\\Usuario.cs",
@@ -104,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "educa-tube-code\\Controllers\\HomeController.cs",
@@ -117,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Views\\Usuarios\\Create.cshtml",
               "RelativeDocumentMoniker": "educa-tube-code\\Views\\Usuarios\\Create.cshtml",
@@ -130,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Utilizador\\source\\repos\\pmv-ads-2024-1-e2-proj-int-t4-educatube\\code\\asp.net\\educa-tube-code\\educa-tube-code\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "educa-tube-code\\Views\\Shared\\_ValidationScriptsPartial.cshtml",

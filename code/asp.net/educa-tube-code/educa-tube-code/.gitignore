@@ -1,1 +1,13 @@
-.vs/
+﻿﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/code/asp.net/educa-tube-code/.vs/educa-tube-code/FileContentIndex/
+/code/asp.net/educa-tube-code/.vs/educa-tube-code
+/code/asp.net/educa-tube-code/.vs/ProjectEvaluation
+/code/asp.net/educa-tube-code/educa-tube-code/obj
+/code/asp.net/educa-tube-code/educa-tube-code/bin
+/.vs/pmv-ads-2024-1-e2-proj-int-t4-educatube/FileContentIndex
+/.vs/pmv-ads-2024-1-e2-proj-int-t4-educatube/v17
+/.vs/pmv-ads-2024-1-e2-proj-int-t4-educatube
+/.vs
