@@ -10,10 +10,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Models\video.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.4.4" />
     <PackageReference Include="LinqKit.EntityFramework" Version="1.2.5" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.4" />
@@ -25,22 +21,6 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.6" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\img\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="wwwroot\img\calend.png" />
-    <None Include="wwwroot\img\eraser.png" />
-    <None Include="wwwroot\img\exit.png" />
-    <None Include="wwwroot\img\logopucmg.png" />
-    <None Include="wwwroot\img\lupa.png" />
-    <None Include="wwwroot\img\perf.png" />
-    <None Include="wwwroot\img\plicon.jpg" />
-    <None Include="wwwroot\img\pomo.png" />
-    <None Include="wwwroot\img\save.png" />
   </ItemGroup>
 
 </Project>
