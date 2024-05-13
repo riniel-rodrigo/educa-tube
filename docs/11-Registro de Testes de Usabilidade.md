@@ -4,5 +4,16 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Registro de Testes de Usabilidade”.
 
-> **Links Úteis**:
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+| Data       | 10/05/2024           |
+|------------|----------------------|
+| Facilitador| Equipe EducaTube    |
+| Participante | Pedro Oliveira     |
+| Contexto do Teste | Avaliação da tela de login do EducaTube para facilidade de acesso e clareza das instruções. |
+| Observações | Nenhuma. |
+| Primeiras Impressões | Tela familiar, porém não atrativa. |
+| Usabilidade | Dificuldade em encontrar o botão "Esqueceu a senha". |
+| Feedback do Participante | Sugestão de adicionar o botão "Esqueceu a senha". |
+| Facilidade de Acesso | Acesso rápido após inserir informações de login. |
+| Design e Layout | Design simples, sugestão de melhoria. |
+| Erro de Login | Mensagem de erro pouco clara. Sugestão de dicas para recuperação de senha. |
+| Conclusões | Tela parcialmente eficaz. Recomenda-se adicionar o botão "Esqueceu a senha" e melhorar a clareza das mensagens de erro. |
