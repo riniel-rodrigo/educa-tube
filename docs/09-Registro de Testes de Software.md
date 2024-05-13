@@ -1,3 +1,4 @@
+
 # Registro de Testes de Software
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
@@ -6,13 +7,24 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 
 | **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-002 - O site deve oferecer ao usuário a página de Login para ser efetuado o acesso ao site. |
-|Registro de evidência | www.teste.com.br/drive/ct-01 |
+|	Requisito Associado 	| RF-001	O site deve permitir o cadastrar o usuário.|
 
 | **Caso de Teste** 	| **CT-02 – Realizar login** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00Y - A aplicação deve permitir que um usuário previamente cadastrado faça login |
-|Registro de evidência | www.teste.com.br/drive/ct-02 |
+|	Requisito Associado 	| RF-002 - O site deve oferecer ao usuário a página de Login para ser efetuado o acesso ao site. |
+
+**Registro de evidência, Login e Cadastro:**
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-educatube/assets/80684745/15da24ea-bc59-4617-9868-010ad3a954d5
+
+| **Caso de Teste** 	| **CT-02 – Realizar login** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-005	O site deve oferecer ao usuário um sistema onde ele possa fazer anotações e salvá-las (CRUD). |
+
+**Registro de evidência, CRUD notas:**
+
+
+
 
 ## Avaliação
 
