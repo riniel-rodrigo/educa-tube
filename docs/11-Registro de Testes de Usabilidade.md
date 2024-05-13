@@ -17,8 +17,9 @@ Observação: Dado que o site não está completo, foram utilizados apenas uma p
 | Feedback do Participante | Sugestão de adicionar o botão "Esqueceu a senha". |
 | Facilidade de Acesso | Acesso rápido após inserir informações de login. |
 | Design e Layout | Design simples, sugestão de melhoria. |
-| Erro de Login | Mensagem de erro pouco clara. Sugestão de dicas para recuperação de senha. |
-| Conclusões | Tela parcialmente eficaz. Recomenda-se adicionar o botão "Esqueceu a senha" e melhorar a clareza das mensagens de erro. |
+| Erro na Funcionalidade | Mensagem de erro pouco clara. Sugestão de dicas para recuperação de senha. |
+| Conclusões | Tela parcialmente eficaz. |
+| Ações Recomendadas | adicionar o botão "Esqueceu a senha" e melhorar a clareza das mensagens de erro. |
 
 ---
 
@@ -31,8 +32,8 @@ Observação: Dado que o site não está completo, foram utilizados apenas uma p
 | Primeiras Impressões | Interface simples, mas básica. Sugestão de layout mais atrativo e intuitivo. |
 | Usabilidade | Dificuldade em encontrar opção de exclusão de notas. |
 | Feedback do Participante | Sugestão de adicionar opção clara para excluir notas diretamente da lista. |
-| Facilidade de Uso | Criação de nova nota rápida e sem problemas. |
+| Facilidade de Acesso | Criação de nova nota rápida e sem problemas. |
 | Design e Layout | Design muito simples. Sugestão de adição de elementos visuais. |
-| Erros na Funcionalidade | Erro ao tentar editar nota existente. |
+| Erro na Funcionalidade | Erro ao tentar editar nota existente. |
 | Conclusões | Bloco de notas funcional, mas precisa de melhorias significativas no design e usabilidade. |
 | Ações Recomendadas | Reformular layout, adicionar opções claras de exclusão de notas e corrigir erros de funcionalidade. |
