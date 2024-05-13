@@ -17,31 +17,31 @@ Por exemplo:
 | Requisito Associado | RF-001 - O site permite cadastrar o usuário. |
 | Objetivo do Teste | Verificar se o usuário consegue se cadastrar no site. |
 | Passos | 1. Acessar a página de registro do site. <br> 2. Preencher o formulário de registro com informações válidas. <br> 3. Submeter o formulário de registro. |
-| Critério de Êxito | Em Análise. |
+| Critério de Êxito | O usuário consegue se cadastrar no site com sucesso, e suas informações de registro são armazenadas corretamente no sistema. |
 |   |   |
 | **Caso de Teste** | **CT-002 - Login do Usuário** |
 | Requisito Associado | RF-002 - O site deve oferecer ao usuário a página de Login para ser efetuado o acesso ao site. |
 | Objetivo do Teste | Verificar se o usuário consegue realizar o login no site. |
 | Passos | 1. Acessar a página de login do site. <br> 2. Preencher o formulário de login com credenciais válidas. <br> 3. Submeter o formulário de login. |
-| Critério de Êxito | Em Análise. |
+| Critério de Êxito | O usuário consegue fazer login no site utilizando suas credenciais corretas, e é redirecionado para a página inicial ou para a página que estava tentando acessar. |
 |   |   |
 | **Caso de Teste** | **CT-003 - Gerenciar Playlists** |
 | Requisito Associado | RF-003 - O site deve oferecer ao usuário ferramentas de criação, edição, adição e remoção de playlists do perfil do usuário (CRUD). |
 | Objetivo do Teste | Verificar se o usuário consegue gerenciar suas playlists (criar, editar, adicionar e remover) corretamente. |
 | Passos | 1. Acessar o perfil do usuário. <br> 2. Navegar até a seção de playlists. <br> 3. Criar uma nova playlist. <br> 4. Editar uma playlist existente. <br> 5. Adicionar vídeos à playlist. <br> 6. Remover vídeos da playlist. |
-| Critério de Êxito | Em Análise. |
+| Critério de Êxito | O usuário consegue criar, editar, adicionar e remover playlists do seu perfil sem problemas, e as alterações são refletidas corretamente no sistema. |
 |   |   |
 | **Caso de Teste** | **CT-004 - Comentários em Vídeos** |
 | Requisito Associado | RF-004 - O site deve oferecer ao usuário uma área de comentários abaixo dos vídeos. |
 | Objetivo do Teste | Verificar se existe uma área de comentários disponível abaixo dos vídeos assistidos. |
 | Passos | 1. Assistir a um vídeo no site. <br> 2. Verificar se há uma seção de comentários abaixo do vídeo. |
-| Critério de Êxito | Em Análise. |
+| Critério de Êxito | O usuário consegue criar um comentario abaixo do video, e curtir comentarios uteis. |
 |   |   |
 | **Caso de Teste** | **CT-005 - Sistema de Anotações** |
 | Requisito Associado | RF-005 - O site deve oferecer ao usuário um sistema onde ele possa fazer anotações e salvá-las. |
 | Objetivo do Teste | Verificar se o usuário pode fazer anotações e salvá-las corretamente no sistema. |
 | Passos | 1. Acessar a funcionalidade de anotações no site. <br> 2. Criar uma nova anotação. <br> 3. Salvar a anotação. |
-| Critério de Êxito | Em Análise. |
+| Critério de Êxito |  O usuário consegue criar, editar e salvar anotações no sistema, e essas anotações são associadas corretamente ao seu perfil. |
 |   |   |
 | **Caso de Teste** | **CT-006 - Visualizar Histórico de Vídeos Assistidos** |
 | Requisito Associado | RF-006 - O site deve permitir visualizar o histórico de vídeos assistidos. |
@@ -53,28 +53,28 @@ Por exemplo:
 | Requisito Associado | RF-007 - O site deve oferecer ao usuário ferramentas de busca local de vídeos ou playlists. |
 | Objetivo do Teste | Verificar se o usuário pode realizar uma busca local de vídeos ou playlists no site. |
 | Passos | 1. Utilizar a ferramenta de busca no site. <br> 2. Digitar o termo de busca na barra de pesquisa. <br> 3. Analisar os resultados da busca. |
-| Critério de Êxito | Em Análise. |
+| Critério de Êxito | A ferramenta de busca retorna resultados relevantes e precisos para os termos de busca inseridos pelo usuário. |
 |   |   |
 | **Caso de Teste** | **CT-008 - Salvar Conteúdos Preferidos** |
 | Requisito Associado | RF-008 - O site deve permitir salvar conteúdos preferidos. |
 | Objetivo do Teste | Verificar se o usuário pode salvar conteúdos preferidos no site. |
 | Passos | 1. Navegar até o conteúdo desejado. <br> 2. Clicar no botão "Salvar" ou equivalente. |
-| Critério de Êxito | Em Análise. |
+| Critério de Êxito | O usuário pode salvar conteúdos preferidos no site e acessá-los posteriormente de forma rápida e fácil. |
 |   |   |
 | **Caso de Teste** | **CT-009 - Gerenciar Agenda Pessoal** |
 | Requisito Associado | RF-009 - O site deve oferecer ao usuário agenda pessoal editável e compartilhável (CRUD). |
 | Objetivo do Teste | Verificar se o usuário pode criar, editar, visualizar e excluir eventos na sua agenda pessoal. |
 | Passos | 1. Acessar a seção da agenda pessoal. <br> 2. Criar um novo evento. <br> 3. Editar um evento existente. <br> 4. Visualizar os eventos na agenda. <br> 5. Excluir um evento. |
-| Critério de Êxito | Em Análise. |
+| Critério de Êxito | O usuário consegue criar, editar, visualizar e excluir eventos na sua agenda pessoal sem problemas, e as alterações são sincronizadas corretamente. |
 |   |   |
 | **Caso de Teste** | **CT-010 - Utilizar Pomodoro para Organizar Tempo de Estudo** |
 | Requisito Associado | RF-010 - O site deve oferecer ao usuário pomodoro para ajudar a organizar o tempo de estudo. |
 | Objetivo do Teste | Verificar se o usuário consegue utilizar a técnica de pomodoro para organizar seu tempo de estudo. |
 | Passos | 1. Acessar a ferramenta de pomodoro no site. <br> 2. Configurar o tempo de estudo e de pausa. <br> 3. Iniciar a sessão de estudo. |
-| Critério de Êxito | Em Análise. |
+| Critério de Êxito | O usuário pode utilizar a técnica de pomodoro para organizar seu tempo de estudo de forma eficaz, e o sistema de pomodoro funciona conforme configurado. |
 |   |   |
 | **Caso de Teste** | **CT-011 - Assistir Vídeos no Site** |
 | Requisito Associado | RF-011 - O site deve permitir ao usuário assistir vídeos. |
 | Objetivo do Teste | Verificar se o usuário consegue assistir vídeos no site. |
 | Passos | 1. Navegar até a página de vídeos. <br> 2. Selecionar um vídeo para assistir. <br> 3. Reproduzir o vídeo. |
-| Critério de Êxito | Em Análise. |
+| Critério de Êxito | O usuário pode assistir vídeos no site sem problemas, e a reprodução dos vídeos é suave e sem interrupções. |
