@@ -37,3 +37,21 @@ Observação: Dado que o site não está completo, foram utilizados apenas uma p
 | Erro na Funcionalidade | Erro ao tentar editar nota existente. |
 | Conclusões | Bloco de notas funcional, mas precisa de melhorias significativas no design e usabilidade. |
 | Ações Recomendadas | Reformular layout, adicionar opções claras de exclusão de notas e corrigir erros de funcionalidade. |
+
+---                                                                                     
+
+| Data                     | 02/05/2024                                                                                         |
+|--------------------------|----------------------------------------------------------------------------------------------------|
+| Facilitador              | Equipe EducaTube                                                                                   |
+| Participante             | Rafael Mendes                                                                                      |
+| Contexto do Teste        | Avaliação da tela de cadastro do aplicativo EducaTube para facilidade de preenchimento do formulário e clareza das instruções. |
+| Observações              | Nenhuma.                                                                                           |
+| Primeiras Impressões     | Rafael achou a tela de cadastro simples e sem muitas funcionalidades e opções.                     |
+| Facilidade de Preenchimento | Preencheu o formulário de cadastro rapidamente, mas sugeriu adições como "foto de perfil", confirmação de senha e ocultação de senha. |
+| Feedback do Participante | Sugestões incluem adicionar "foto de perfil", confirmação de senha e opção para ocultar senha.    |
+| Facilidade de Acesso     | Acessou sua conta sem problemas após o cadastro.                                                    |
+| Design e Layout          | Gostou da disposição dos campos, mas achou o layout muito simples.                                  |
+| Erro na Funcionalidade | Mensagem de erro pouco clara. Sugestão de dicas para recuperação de senha. |
+| Conclusões               | A tela de cadastro é parcialmente eficiente e precisa de melhorias de segurança nas senhas e no layout. |
+| Ações Recomendadas      | Adicionar verificação de senha e melhorar o layout.                                                 |
+```
