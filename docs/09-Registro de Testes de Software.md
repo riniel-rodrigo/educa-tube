@@ -6,7 +6,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 
 | **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
+|	Requisito Associado 	| RF-002 - O site deve oferecer ao usuário a página de Login para ser efetuado o acesso ao site. |
 |Registro de evidência | www.teste.com.br/drive/ct-01 |
 
 | **Caso de Teste** 	| **CT-02 – Realizar login** 	|
