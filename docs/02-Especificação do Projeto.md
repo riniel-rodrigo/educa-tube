@@ -73,7 +73,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-002| O site deve oferecer ao usuário a página de Login para ser efetuado o acesso ao site.   | ALTA  |
 |RF-003| O site deve oferecer ao usuário ferramentas de criação, edição, adição e remoção de playlists do perfil do usuário(CRUD).   | ALTA  |
 |RF-004| O site deve oferecer ao usuário uma área de comentários abaixo dos vídeos.   | MÉDIA  |
-|RF-005| O site deve oferecer ao usuário um sistema onde ele possa fazer anotações e salvá-las.    | ALTA  |
+|RF-005| O site deve oferecer ao usuário um sistema onde ele possa fazer anotações e salvá-las(CRUD).    | ALTA  |
 |RF-006| O site deve permitir visualizar o histórico de vídeos assistidos.   | BAIXO  |
 |RF-007| O site deve oferecer ao usuário ferramentas de busca local de vídeos ou playlists.   | ALTA  |
 |RF-008| O site deve permitir salvar conteúdos preferidos  | BAIXO  |
