@@ -4,6 +4,8 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Registro de Testes de Usabilidade”.
 
+Observação: Dado que o site não está completo, foram utilizados apenas uma pessoa\voluntario por teste de RF com intuito de testar os primeiros designs e funcionalidades criadas dentro do site, sendo elas: Tela de Login, Tela de Cadastro e Tela de bloco de notas.
+
 | Data       | 10/05/2024           |
 |------------|----------------------|
 | Facilitador| Equipe EducaTube    |
