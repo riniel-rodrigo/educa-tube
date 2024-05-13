@@ -54,4 +54,4 @@ Observação: Dado que o site não está completo, foram utilizados apenas uma p
 | Erro na Funcionalidade | Mensagem de erro pouco clara. Sugestão de dicas para recuperação de senha. |
 | Conclusões               | A tela de cadastro é parcialmente eficiente e precisa de melhorias de segurança nas senhas e no layout. |
 | Ações Recomendadas      | Adicionar verificação de senha e melhorar o layout.                                                 |
-```
+
