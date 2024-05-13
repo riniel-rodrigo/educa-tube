@@ -38,7 +38,7 @@ Por exemplo:
 | Critério de Êxito | O usuário consegue criar um comentario abaixo do video, e curtir comentarios uteis. |
 |   |   |
 | **Caso de Teste** | **CT-005 - Sistema de Anotações** |
-| Requisito Associado | RF-005 - O site deve oferecer ao usuário um sistema onde ele possa fazer anotações e salvá-las. |
+| Requisito Associado | RF-005 - O site deve oferecer ao usuário um sistema onde ele possa fazer anotações e salvá-las (CRUD). |
 | Objetivo do Teste | Verificar se o usuário pode fazer anotações e salvá-las corretamente no sistema. |
 | Passos | 1. Acessar a funcionalidade de anotações no site. <br> 2. Criar uma nova anotação. <br> 3. Salvar a anotação. |
 | Critério de Êxito |  O usuário consegue criar, editar e salvar anotações no sistema, e essas anotações são associadas corretamente ao seu perfil. |
