@@ -18,7 +18,7 @@ body {
 
 .sideMenu {
     padding: 1.5rem 2rem;
-    padding-top:3rem;
+    padding-top:4rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -47,7 +47,7 @@ body {
     display: flex;
     align-items:center;
     justify-content: space-between;
-    width: 30rem;
+    width: 35.5rem;
     height:2.5rem;
     padding: 01rem 0.6rem;
     border: solid 1px #CCCCCC;
@@ -122,10 +122,11 @@ i:hover {
     cursor:pointer;
 }
 
-main{
-    margin-left:16rem;
-    margin-top:7.5rem;
-    height:50rem;
+main {
+    /*width: 82%;*/
+    margin-left:17rem;
+    margin-top:6.5rem;
+    height: 40rem;
 }
 
 

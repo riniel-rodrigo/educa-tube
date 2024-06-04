@@ -1,11 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using educa_tube_code.Models;
-using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages;
-using System.Data.Entity;
 using Microsoft.EntityFrameworkCore;
 
 namespace educa_tube_code.Controllers
@@ -16,32 +13,36 @@ namespace educa_tube_code.Controllers
         public LoginController(AppDbContext context)
         {
             _context = context;
-
         }
+
         public IActionResult Index()
         {
             return View();
         }
+
         public IActionResult Login()
         {
             ClaimsPrincipal claimUser = HttpContext.User;
 
             if (claimUser.Identity.IsAuthenticated)
                 return RedirectToAction("Index", "Home");
+
             return View();
         }
 
         [HttpPost]
         public async Task<IActionResult> Login(Usuario modelLogin)
         {
+            var user = await _context.Usuarios
+                .FirstOrDefaultAsync(o => o.Email == modelLogin.Email && o.Senha == modelLogin.Senha);
 
-            if (_context.Usuarios.Any(o => o.Email == modelLogin.Email && o.Senha == modelLogin.Senha)
-            )
+            if (user != null)
             {
-                List<Claim> claims = new List<Claim>() {
-                    new Claim(ClaimTypes.NameIdentifier, modelLogin.Email),
-                    new Claim("OtherProperties","Example Role")
-
+                List<Claim> claims = new List<Claim>()
+                {
+                    new Claim(ClaimTypes.NameIdentifier, user.Email),
+                    new Claim(ClaimTypes.Name, user.Nome),
+                    new Claim("OtherProperties", "Example Role")
                 };
 
                 ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims,
@@ -49,7 +50,6 @@ namespace educa_tube_code.Controllers
 
                 AuthenticationProperties properties = new AuthenticationProperties()
                 {
-
                     AllowRefresh = true,
                     IsPersistent = modelLogin.KeepLoggedIn
                 };
@@ -60,9 +60,7 @@ namespace educa_tube_code.Controllers
                 return RedirectToAction("Index", "Home");
             }
 
-
-
-            ViewData["ValidateMessage"] = "user not found";
+            ViewData["ValidateMessage"] = "User not found";
             return View();
         }
     }

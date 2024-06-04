@@ -1,6 +1,4 @@
-﻿
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -15,7 +13,7 @@
 
 <body>
     <header class="headerBox">
-        <nav class="menuTop" >
+        <nav class="menuTop">
             <div class="logoDiv">
                 <a class="title" asp-area="" asp-controller="Home" asp-action="Index">EducaTube</a>
             </div>
@@ -27,18 +25,25 @@
 
             <div class="user">
                 <i class="bi bi-person-circle"></i>
-                User
+                @if (User.Identity.IsAuthenticated)
+                {
+                    @User.Identity.Name
+                }
+                else
+                {
+                    <span>User</span>
+                }
+                <i class="bi bi-caret-down-fill"></i>
             </div>
 
             <div class="logout">
-                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="LogOut"><i class="bi bi-box-arrow-left"></i> </a>   
-            </div>   
+                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="LogOut"><i class="bi bi-box-arrow-left"></i></a>
+            </div>
         </nav>
     </header>
 
     <aside>
         <div class="sideMenu">
-
             <div class="tools">
                 <ul>
                     <li>
@@ -49,27 +54,22 @@
                         <i class="bi bi-journal-text"></i>
                         <a asp-area="" asp-controller="Notas" asp-action="Index">Bloco de notas</a>
                     </li>
-
                     <li>
                         <i class="bi bi-stopwatch"></i>
                         Pomodoro
                     </li>
-
                     <li>
                         <i class="bi bi-calendar"></i>
                         Agenda
                     </li>
-
                     <li>
                         <i class="bi bi-list-nested"></i>
                         Playlists
                     </li>
-
                     <li>
                         <i class="bi bi-bookmark-check"></i>
                         Vídeos salvos
                     </li>
-
                     <li>
                         <i class="bi bi-clock-history"></i>
                         Histórico
@@ -79,8 +79,8 @@
         </div>
     </aside>
 
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div class="contMain">
+        <main role="main">
             @RenderBody()
         </main>
     </div>
@@ -93,7 +93,6 @@
                     <li class="nav-item">
                         <a class="nav-link text-dark" asp-area="" asp-controller="Notas" asp-action="Index">Notas</a>
                     </li>
-
                     <li class="nav-item">
                         <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="LogOut">Log Out</a>
                     </li>
