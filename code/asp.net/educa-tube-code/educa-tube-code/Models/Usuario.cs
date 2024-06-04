@@ -21,6 +21,6 @@ namespace educa_tube_code.Models
         public string DataCadastro { get; set; }
         public bool KeepLoggedIn { get; set; }
 
-        public List<Nota> Notas { get; set; }
+        public ICollection<Nota> Notas { get; set; }
     }
 }
