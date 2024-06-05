@@ -16,41 +16,50 @@ a{
 }
 
 .ContainerMain h2{
-    font-size:1.90rem;
+    font-size:1.5rem;
+    font-weight:400;
 }
 
 .ContainerCards {
     /*    display:grid;
     grid-template-columns: repeat(3, 1fr);*/
     display: flex;
-    width: 100%;
+    justify-content: start;
     flex-wrap: wrap;
     gap: 2rem;
+    width: 100%;
 /*    border: green solid 2px;*/
 }
 
 .addNote {
     display: flex;
     align-items: center;
+
+}
+
+.addNote a{
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 400;
+    color: #004d74;
+}
+
+.addNote a:hover{
+    color: #0582ca;
 }
 
 .noteCard {
     padding: 0.7rem;
-    width: 20rem;
+    width: 18rem;
     background-color: #FFF;
     color: #000;
     box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
+    background-color: #fafdf6;
 }
 
 .noteCard .noteTitleDiv {
     display:flex;
     justify-content:space-between;
-    font-size:1rem;
-    font-weight:400;
-
 }
 
 .noteTitle {
@@ -58,6 +67,8 @@ a{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-size: 0.90rem;
+    font-weight: 400;
 }
 
 .icons {
@@ -65,11 +76,11 @@ a{
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .icons i{
-    color:#0A66C2;
+    color:#0582ca;
 }
 
 .btnDelete:hover{
@@ -90,7 +101,7 @@ a{
 
 .conteudoPrev {
     padding: 0.5rem;
-    font-size: 1rem;
+    font-size: 0.90rem;
     font-weight: 300;
     color: #6c757d;
     white-space: nowrap;
@@ -100,7 +111,7 @@ a{
 
 .noteDate {
     padding: 0.5rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 300;
     color: #6c757d;
 }

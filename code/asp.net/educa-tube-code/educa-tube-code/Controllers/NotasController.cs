@@ -100,8 +100,10 @@ namespace educa_tube_code.Controllers
 
             if (ModelState.IsValid)
             {
+                nota.DataCriacao = DateTime.Now;
                 try
                 {
+                    nota.DataCriacao = DateTime.Now;
                     _context.Update(nota);
                     await _context.SaveChangesAsync();
                 }

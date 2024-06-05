@@ -1,11 +1,20 @@
 ﻿
-.userCamp{
-    display:none;
+.userCamp {
+    display: none;
 }
 
 .mainDiv {
-    padding: 3rem 0rem 3rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width:95%;
 }
+
+    .mainDiv h4 {
+        font-size:1.4rem;
+        font-weight: 400;
+        color: #004d74;
+    }
 
 .divForm form {
     display: flex;
@@ -14,66 +23,31 @@
 }
 
 .inp {
-    all: unset;
-    border: none;
-    font-size: 1.5rem;
-    width:90%;
-/*    border:solid 2px red;*/
+    padding: 0.4rem;
+    width: 100%;
+    border: 1.5px solid #ccc;
+    font-size: 1rem;
+    outline: none;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+    background-color: #FFF;
 }
 
+    .inp:focus {
+        border-color: #0066cc;
+        box-shadow: 0 4px 8px rgba(0, 102, 204, 0.4);
+    }
+
 .inpTitle {
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .inpContent {
     font-weight: 300;
-    font-size: 1.2rem;
 }
 
 .inp::placeholder {
-    font-size: 1.9rem;
     font-weight: 300;
-    color:#6c757d;
-    opacity:0.7;
+    color: #6c757d;
+    opacity: 0.7;
 }
-
-.buttonsDiv{
-    display:flex;
-    justify-content:space-between;
-}
-
-.saveButton{
-    all:unset;
-}
-
-.saveButton {
-    background-color: #0A66C2;
-    border: none;
-    color: white;
-    padding: 0.5rem 1.5rem;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 0.8rem;
-    transition-duration: 0.4s;
-    border: 2px solid #0A66C2;
-}
-
-    .saveButton:hover {
-        background-color: white;
-        color: black;
-        border: 2px solid #0A66C2;
-    }
-
-.backButton {
-    background-color: gray;
-    border: 2px solid gray;
-}
-
-.saveButton:hover {
-    background-color: white;
-    color: black;
-    border: 2px solid gray;
-}
-
-    

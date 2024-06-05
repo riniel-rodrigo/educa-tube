@@ -5,43 +5,39 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Edit</h1>
+<link rel="stylesheet" type="text/css" href="~/css/NotasStyle/NotasCreate.css" />
+<link rel="stylesheet" type="text/css" href="~/css/NotasStyle/NotasEdit.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-<h4>Nota</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="Titulo" class="control-label"></label>
-                <input asp-for="Titulo" class="form-control" />
-                <span asp-validation-for="Titulo" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Conteudo" class="control-label"></label>
-                <input asp-for="Conteudo" class="form-control" />
-                <span asp-validation-for="Conteudo" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DataCriacao" class="control-label"></label>
-                <input asp-for="DataCriacao" class="form-control" />
-                <span asp-validation-for="DataCriacao" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="UsuarioId" class="control-label"></label>
-                <select asp-for="UsuarioId" class="form-control" asp-items="ViewBag.UsuarioId"></select>
-                <span asp-validation-for="UsuarioId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+<div class="mainDiv">
+    <h4>Editar Nota <i class="bi bi-pencil-square"></i> </h4>
+
+    <div class="row">
+        <div class="divForm">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+
+                <div>
+                    <input class="inp inpTitle" asp-for="Titulo" placeholder="Editar título" />
+                    <span asp-validation-for="Titulo" class="text-danger"></span>
+                </div>
+
+                <div>
+                    <textarea rows="8" class="inp inpContent" asp-for="Conteudo" placeholder="Editar texto"></textarea>
+                    <span asp-validation-for="Conteudo" class="text-danger"></span>
+                </div>
+
+                <div class="userCamp">
+                    <label asp-for="UsuarioId"></label>
+                    <select asp-for="UsuarioId" asp-items="ViewBag.UsuarioId"></select>
+                    <span asp-validation-for="UsuarioId" class="text-danger"></span>
+                </div>
+                <div class="buttonsDiv">
+                    <input class="primaryButton" type="submit" value="Save" />
+                    <a class="primaryButton backButton" asp-action="Index"><i class="bi bi-arrow-bar-left"></i> Voltar</a>
+                </div>
+            </form>
+        </div>
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-

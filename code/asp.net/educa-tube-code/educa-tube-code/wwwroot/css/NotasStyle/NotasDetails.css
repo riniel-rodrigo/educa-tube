@@ -1,0 +1,12 @@
+﻿
+
+.rowContent {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.createDate{
+    font-weight:300;
+    color:dimgray;
+}

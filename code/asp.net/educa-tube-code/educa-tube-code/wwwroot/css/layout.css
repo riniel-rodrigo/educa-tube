@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items:center;
+    gap:2.5rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -117,16 +118,55 @@ body {
     color:#0582ca !important;
 }
 
-i:hover {
-    color: #0582ca;
-    cursor:pointer;
+h2{
+    font-size:1.5rem;
+    font-weight:400;
 }
+
+
+/*botões*/
+.buttonsDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.primaryButton {
+    all: unset;
+}
+
+.primaryButton {
+    background-color: #0582ca;
+    color: white;
+    padding: 0.3rem 1rem;
+    text-align: center;
+    font-size: 0.90rem;
+    cursor: pointer;
+    border-radius: 0.8rem;
+    transition-duration: 0.4s;
+    border: 2px solid #0582ca;
+}
+
+    .primaryButton:hover {
+        background-color: white;
+        color: black;
+        border: 2px solid #0582ca;
+    }
+
+.backButton {
+    background-color: gray;
+    border: 2px solid gray;
+}
+
+    .backButton:hover {
+        border: 2px solid gray;
+    }
+
 
 main {
     /*width: 82%;*/
-    margin-left:17rem;
-    margin-top:6.5rem;
-    height: 40rem;
+    margin-left: 17rem;
+    margin-top: 6.5rem;
+    padding-right:2rem;
+    height: 65vh;
 }
-
 

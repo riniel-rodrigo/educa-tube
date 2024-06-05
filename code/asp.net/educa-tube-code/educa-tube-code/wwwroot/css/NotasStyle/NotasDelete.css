@@ -1,0 +1,19 @@
+﻿.deleteButton {
+    background-color: #BB2D3B;
+    border:solid 2px #BB2D3B;
+}
+
+.deleteButton:hover {
+    border: solid 2px #BB2D3B;
+}
+
+.noteTile{
+    font-weight:500;
+    font-size:1.1rem;
+}
+
+.confirmDelete {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #004d74;
+}
