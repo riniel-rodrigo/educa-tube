@@ -40,8 +40,9 @@ namespace educa_tube_code.Controllers
             {
                 List<Claim> claims = new List<Claim>()
                 {
-                    new Claim(ClaimTypes.NameIdentifier, user.Email),
+                    new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),  // Adicionando o ID do usuário
                     new Claim(ClaimTypes.Name, user.Nome),
+                    new Claim(ClaimTypes.Email, user.Email),
                     new Claim("OtherProperties", "Example Role")
                 };
 

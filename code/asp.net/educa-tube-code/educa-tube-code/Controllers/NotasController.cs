@@ -1,14 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using educa_tube_code.Models;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace educa_tube_code.Controllers
 {
+    [Authorize]
     public class NotasController : Controller
     {
         private readonly AppDbContext _context;
@@ -18,11 +18,20 @@ namespace educa_tube_code.Controllers
             _context = context;
         }
 
+        private int GetUserId()
+        {
+            return int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
+        }
+
         // GET: Notas
         public async Task<IActionResult> Index()
         {
-            var appDbContext = _context.Notas.Include(n => n.Usuario);
-            return View(await appDbContext.ToListAsync());
+            int userId = GetUserId();
+            var notas = await _context.Notas
+                .Where(n => n.UsuarioId == userId)
+                .Include(n => n.Usuario)
+                .ToListAsync();
+            return View(notas);
         }
 
         // GET: Notas/Details/5
@@ -33,9 +42,11 @@ namespace educa_tube_code.Controllers
                 return NotFound();
             }
 
+            int userId = GetUserId();
             var nota = await _context.Notas
+                .Where(n => n.Id == id && n.UsuarioId == userId)
                 .Include(n => n.Usuario)
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync();
             if (nota == null)
             {
                 return NotFound();
@@ -47,25 +58,23 @@ namespace educa_tube_code.Controllers
         // GET: Notas/Create
         public IActionResult Create()
         {
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email");
             return View();
         }
 
         // POST: Notas/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Titulo,Conteudo,DataCriacao,UsuarioId")] Nota nota)
+        public async Task<IActionResult> Create([Bind("Id,Titulo,Conteudo")] Nota nota)
         {
             if (ModelState.IsValid)
             {
+                int userId = GetUserId();
                 nota.DataCriacao = DateTime.Now;
+                nota.UsuarioId = userId;
                 _context.Add(nota);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email", nota.UsuarioId);
             return View(nota);
         }
 
@@ -77,21 +86,21 @@ namespace educa_tube_code.Controllers
                 return NotFound();
             }
 
-            var nota = await _context.Notas.FindAsync(id);
+            int userId = GetUserId();
+            var nota = await _context.Notas
+                .Where(n => n.Id == id && n.UsuarioId == userId)
+                .FirstOrDefaultAsync();
             if (nota == null)
             {
                 return NotFound();
             }
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email", nota.UsuarioId);
             return View(nota);
         }
 
         // POST: Notas/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Titulo,Conteudo,DataCriacao,UsuarioId")] Nota nota)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Titulo,Conteudo")] Nota nota)
         {
             if (id != nota.Id)
             {
@@ -100,11 +109,22 @@ namespace educa_tube_code.Controllers
 
             if (ModelState.IsValid)
             {
-                nota.DataCriacao = DateTime.Now;
+                int userId = GetUserId();
+                var notaToUpdate = await _context.Notas
+                    .Where(n => n.Id == id && n.UsuarioId == userId)
+                    .FirstOrDefaultAsync();
+                if (notaToUpdate == null)
+                {
+                    return NotFound();
+                }
+
+                notaToUpdate.Titulo = nota.Titulo;
+                notaToUpdate.Conteudo = nota.Conteudo;
+                notaToUpdate.DataCriacao = DateTime.Now;
+
                 try
                 {
-                    nota.DataCriacao = DateTime.Now;
-                    _context.Update(nota);
+                    _context.Update(notaToUpdate);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -120,7 +140,6 @@ namespace educa_tube_code.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email", nota.UsuarioId);
             return View(nota);
         }
 
@@ -132,9 +151,11 @@ namespace educa_tube_code.Controllers
                 return NotFound();
             }
 
+            int userId = GetUserId();
             var nota = await _context.Notas
+                .Where(n => n.Id == id && n.UsuarioId == userId)
                 .Include(n => n.Usuario)
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync();
             if (nota == null)
             {
                 return NotFound();
@@ -148,13 +169,16 @@ namespace educa_tube_code.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var nota = await _context.Notas.FindAsync(id);
+            int userId = GetUserId();
+            var nota = await _context.Notas
+                .Where(n => n.Id == id && n.UsuarioId == userId)
+                .FirstOrDefaultAsync();
             if (nota != null)
             {
                 _context.Notas.Remove(nota);
+                await _context.SaveChangesAsync();
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
