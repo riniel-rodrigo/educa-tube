@@ -1,0 +1,32 @@
+﻿@model IEnumerable<educa_tube_code.Models.Video>
+
+@{
+    ViewData["Title"] = "Search Videos";
+}
+
+<h2>Search Videos</h2>
+
+<form method="get">
+    <input type="text" name="query" placeholder="Search for videos..." />
+    <input type="submit" value="Search" />
+</form>
+
+@if (Model != null && Model.Any())
+{
+    <div>
+        @foreach (var video in Model)
+        {
+            <div>
+                <h3>@video.Titulo</h3>
+                <img src="@video.ThumbnailUrl" alt="@video.Titulo" />
+                <p>@video.Descricao</p>
+                <a href="@video.Url" target="_blank">Watch on YouTube</a>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No videos found.</p>
+}
+

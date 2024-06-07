@@ -11,5 +11,8 @@ namespace educa_tube_code.Models
 
         public DbSet<Nota> Notas { get; set; }
 
+        public DbSet<Video> Videos { get; set; }
+
+
     }
 }

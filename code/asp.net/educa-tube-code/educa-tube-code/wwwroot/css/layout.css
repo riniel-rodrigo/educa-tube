@@ -56,8 +56,16 @@ body {
     box-shadow: 0 0.9px 0.9px rgba(0, 0, 0, 0.1);
 }
 
-.searchBox{
-    all:unset;
+.searchDiv form{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width:100%;
+}
+
+.searchBox {
+    all: unset;
+    width: 100%;
 }
 
 .bi-search {
