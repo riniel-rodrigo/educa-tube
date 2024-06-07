@@ -170,11 +170,12 @@ h2{
     }
 
 
-main {
+.mainLayout {
     /*width: 82%;*/
     margin-left: 17rem;
     margin-top: 6.5rem;
-    padding-right:2rem;
-    height: 65vh;
+    padding-right: 2rem;
+    height: 100%;
+
 }
 

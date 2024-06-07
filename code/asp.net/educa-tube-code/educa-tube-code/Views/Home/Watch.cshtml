@@ -1,0 +1,12 @@
+﻿@model educa_tube_code.Models.Video
+
+@{
+    ViewData["Title"] = "Watch Video";
+}
+
+<h2>@Model.Titulo</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/@Model.VideoId" frameborder="0" allowfullscreen></iframe>
+
+<p>@Model.Descricao</p>
+<a href="@Url.Action("Index", "Home")">Back to Search</a>

@@ -4,43 +4,21 @@
     ViewData["Title"] = "Home";
 }
 
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="utf-8">
-    <title>Modelo</title>
-    <meta http-equiv="X-UA-compatible" content="IE=edge">
-    <meta name="author" content="grupo2">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="~/css/modelo.css">
-    <script src="~/js/modelo.js"></script>
-</head>
-<body>
-    <header>
-    </header>
-
-    <main>
-
-        @if (Model != null && Model.Any())
+@if (Model != null && Model.Any())
+{
+    <div>
+        @foreach (var video in Model)
         {
-            <div class="listVideo">
-                @foreach (var video in Model)
-                {
-                    <div>
-                        <h3>@video.Titulo</h3>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/@video.VideoId" frameborder="0" allowfullscreen></iframe>
-                        <p>@video.Descricao</p>
-                    </div>
-                }
+            <div>
+                <h3>@video.Titulo</h3>
+                <img src="@video.ThumbnailUrl" alt="@video.Titulo" />
+                <p>@video.Descricao</p>
+                <a asp-action="Watch" asp-route-videoId="@video.VideoId">Watch Video</a>
             </div>
         }
-        else
-        {
-@*             <p>No videos found.</p> *@
-        }
-    </main>
-
-    <footer>
-    </footer>
-</body>
-</html>
+    </div>
+}
+else
+{
+@*     <p>No videos found.</p> *@
+}

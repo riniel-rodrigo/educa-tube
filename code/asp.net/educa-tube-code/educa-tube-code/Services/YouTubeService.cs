@@ -43,7 +43,7 @@ namespace educa_tube_code.Services
                         Descricao = searchResult.Snippet.Description,
                         ThumbnailUrl = searchResult.Snippet.Thumbnails.Default__.Url,
                         DataCadastro = DateTime.Now,
-                        VideoId = searchResult.Id.VideoId
+                        VideoId = searchResult.Id.VideoId // Preenche a propriedade VideoId
                     });
                 }
             }

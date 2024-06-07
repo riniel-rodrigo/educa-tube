@@ -3,11 +3,11 @@ using educa_tube_code.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authorization;
-using System.Collections.Generic;
 using System.Threading.Tasks;
+using System.Collections.Generic;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 
 namespace educa_tube_code.Controllers
 {
@@ -50,6 +50,22 @@ namespace educa_tube_code.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+
+        public IActionResult Watch(string videoId)
+        {
+            if (string.IsNullOrEmpty(videoId))
+            {
+                return RedirectToAction("Index");
+            }
+
+            var video = new Video
+            {
+                VideoId = videoId
+            };
+
+            return View(video);
         }
     }
 }
