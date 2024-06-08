@@ -20,9 +20,9 @@
 
 <body>
     <header>
-        <h1>Entre no Site</h1>
+        <h1>Cadastre-se</h1>
 
-        <h4>Usuario</h4>
+        <h4>Dados a informar:</h4>
         <hr />
     </header>
     <div class="row">
@@ -45,8 +45,14 @@
                     <span asp-validation-for="Senha" class="text-danger"></span>
                 </div>
                 <div class="form-group">
+                    <label asp-for="ConfirmPassword" class="control-label"> Confirme a Senha</label>
+                    <input asp-for="ConfirmPassword" class="form-control" />
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                </div>
+                <div class="form-group">
                     <input type="submit" value="Registar" class="btn btn-primary" />
                 </div>
+
             </form>
         </div>
     </div>
