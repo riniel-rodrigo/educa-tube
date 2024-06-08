@@ -61,7 +61,7 @@ namespace educa_tube_code.Controllers
                 return RedirectToAction("Index", "Home");
             }
 
-            ViewData["ValidateMessage"] = "User not found";
+            ViewData["ValidateMessage"] = "Usuário não encontrado";
             return View();
         }
     }

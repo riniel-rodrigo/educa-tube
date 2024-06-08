@@ -1,0 +1,16 @@
+﻿.form-group {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.form-control {
+    width: 410px;
+}
+.styleTitleRecuperarSenha {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
