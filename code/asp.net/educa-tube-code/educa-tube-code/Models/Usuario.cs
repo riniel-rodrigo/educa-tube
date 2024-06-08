@@ -19,7 +19,7 @@ namespace educa_tube_code.Models
         [Required(ErrorMessage = "Obrigatório informar Senha!")]
         public string Senha { get; set; }
 
-        [NotMapped] // Does not effect with your database
+        [NotMapped] // Não afeta seu banco de dados
         [Compare("Senha")]
         public string ConfirmPassword { get; set; }
         public string DataCadastro { get; set; }
