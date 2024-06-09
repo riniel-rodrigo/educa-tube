@@ -4,21 +4,30 @@
     ViewData["Title"] = "Home";
 }
 
+<link rel="stylesheet" type="text/css" href="~/css/HomeStyle/Home.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 @if (Model != null && Model.Any())
 {
     <div>
         @foreach (var video in Model)
         {
             <div>
+                <div>
+                    <img src="@video.ThumbnailUrl" alt="@video.Titulo" />
+                    <span>Duração: @video.Duration</span>
+                    <img src="@video.ChannelThumbnailUrl" alt="Foto do canal" />
+                </div>
                 <h3>@video.Titulo</h3>
-                <img src="@video.ThumbnailUrl" alt="@video.Titulo" />
-                <p>@video.Descricao</p>
-                <a asp-action="Watch" asp-route-videoId="@video.VideoId">Watch Video</a>
+                <p>Visualizações: @video.ViewCount</p>
+                <p>Data de Publicação: @video.DatePublished.ToString("dd/MM/yyyy")</p>
+                <p>Curtidas: @video.LikeCount</p>
+                <a asp-action="Watch" asp-route-videoId="@video.VideoId">Assistir Vídeo</a>
             </div>
         }
     </div>
 }
 else
 {
-@*     <p>No videos found.</p> *@
+    <p>Nenhum vídeo encontrado.</p>
 }

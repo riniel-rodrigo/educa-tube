@@ -20,7 +20,6 @@ namespace educa_tube_code.Models
         public DateTime DataCadastro { get; set; }
         public string ThumbnailUrl { get; set; }
 
-        // Adicionada a propriedade PlaylistId
         public string PlaylistId { get; set; }
     }
 }
