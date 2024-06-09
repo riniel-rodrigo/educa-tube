@@ -28,7 +28,7 @@
             </div>
 
             <div class="user">
-                <i class="bi bi-person-circle"></i>
+               <a class="nav-link text-dark" asp-area="" asp-controller="Perfis" asp-action="Index">  <i class="bi bi-person-circle"></i>
                 @if (User.Identity.IsAuthenticated)
                 {
                     @User.Identity.Name
@@ -38,6 +38,7 @@
                     <span>User</span>
                 }
                 <i class="bi bi-caret-down-fill"></i>
+                </a>
             </div>
 
             <div class="logout">
