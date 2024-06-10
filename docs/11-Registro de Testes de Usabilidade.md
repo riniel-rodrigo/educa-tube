@@ -55,3 +55,21 @@ Observação: Dado que o site não está completo, foram utilizados apenas uma p
 | Conclusões               | A tela de cadastro é eficiente, mas poderia ter mais funções. |
 | Ações Recomendadas      | Adicionar visualização de senha e foto de perfil.                                                 |
 
+---                                                                                     
+
+| Data                     | 04/06/2024                                                                                         |
+|--------------------------|----------------------------------------------------------------------------------------------------|
+| Facilitador              | Equipe EducaTube                                                                                   |
+| Participante             | Carla Araujo                                                                                      |
+| Contexto do Teste        | Avaliação da tela de recuperação de senha e envio do e-mail |
+| Observações              | Nenhuma.                                                                                           |
+| Primeiras Impressões     | Carla achou a tela de recuperação de senha simples.                     |
+| Facilidade de Preenchimento | Preencheu o formulário de recuperação de senha rapidamente, mas sugeriu que colocassem informações do processo. |
+| Feedback do Participante | Sugestões adicionar informações do processo, como por exemplo uma mensagem "A senha será enviada para o e-mail solicitado".   |
+| Facilidade de Acesso     | Recebeu e-mail com informações da senha após inserir o e-mail e enviar sme complicações e rápidamente.   |
+| Design e Layout          | Gostou da disposição dos campos e achou o layout simples de entender.                                  |
+| Erro na Funcionalidade | |
+| Conclusões               | A tela de recuperação de senha é eficiente, mas poderia ser mais explicativa. |
+| Ações Recomendadas      | Adicionar explicação do que vai acontecer para recuperar a senha na tela. |
+
+
