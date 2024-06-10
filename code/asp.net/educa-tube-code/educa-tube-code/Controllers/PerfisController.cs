@@ -26,7 +26,7 @@ namespace educa_tube_code.Controllers
             Usuario usuario = _context.Usuarios.FirstOrDefault(o => o.Id == GetUserId());
             return View(usuario);
         }
-      
+
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -47,22 +47,33 @@ namespace educa_tube_code.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Senha")] Usuario usuario)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,NovaSenha,Senha,ConfirmNovaSenha")] Usuario usuario)
         {
             if (id != usuario.Id)
                 return NotFound();
 
-            if (!String.IsNullOrEmpty(usuario.Nome) && !String.IsNullOrEmpty(usuario.Senha))
+            if (!String.IsNullOrEmpty(usuario.Nome) && !String.IsNullOrEmpty(usuario.Senha) && !String.IsNullOrEmpty(usuario.NovaSenha) && !String.IsNullOrEmpty(usuario.ConfirmNovaSenha))
             {
+                if (usuario.NovaSenha != usuario.ConfirmNovaSenha)
+                {
+                    ViewData["ValidateMessage"] = "A nova senha não estão iguais";
+                    return View(usuario);
+                }
                 Usuario usuarioUpadate = _context.Usuarios.FirstOrDefault(o => o.Id == GetUserId());
                 if (usuarioUpadate == null)
                 {
                     return NotFound();
                 }
 
+                if (usuarioUpadate.Senha != usuario.Senha)
+                {
+                    ViewData["ValidateMessage"] = "A senha atual não esta correta";
+                    return View(usuario);
+                }
+
                 usuarioUpadate.Nome = usuario.Nome;
-                usuarioUpadate.Senha = usuario.Senha;
-                
+                usuarioUpadate.Senha = usuario.NovaSenha;
+
                 try
                 {
                     _context.Update(usuarioUpadate);
@@ -80,7 +91,9 @@ namespace educa_tube_code.Controllers
                     }
                 }
                 return RedirectToAction(nameof(Index));
+
             }
+            ViewData["ValidateMessage"] = "Não foi possivel realizar a ação";
             return View(usuario);
         }
 

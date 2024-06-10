@@ -4,11 +4,13 @@
     ViewData["Title"] = "Edit";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-<h1>Edit</h1>
+<link rel="stylesheet" href="~/css/PerfilStyle/Perfil.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/educa_tube_code.styles.css" asp-append-version="true" />
 
-<h4>Usuario</h4>
+<h1>Edição de Perfil</h1>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -25,15 +27,24 @@
                 <input asp-for="Senha" class="form-control" />
                 <span asp-validation-for="Senha" class="text-danger"></span>
             </div>
+            <div class="form-group">
+                <label asp-for="NovaSenha" class="control-label">Nova Senha</label>
+                <input asp-for="NovaSenha" class="form-control" />
+                <span asp-validation-for="NovaSenha" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ConfirmNovaSenha" class="control-label"> Confirme a Senha</label>
+                <input type="password" asp-for="ConfirmNovaSenha" class="form-control" />
+                <span asp-validation-for="ConfirmNovaSenha" class="text-danger"></span>
+            </div>
             <br />
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Save" class="btn btn-primary" /> 
+                <input type="submit" value="Voltar" asp-action="Index" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
+<br />
 
-<div>
-    <a asp-action="Index">Voltar</a>
-</div>
 
