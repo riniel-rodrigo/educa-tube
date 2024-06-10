@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\PerfilController.cs" />
     <Compile Remove="Views\Home\VideoPlayer.cs" />
   </ItemGroup>
 

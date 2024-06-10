@@ -49,15 +49,12 @@
                                 <input type="password" asp-for="Senha" class="form-control" />
                                 <span asp-validation-for="Senha" class="text-danger"></span>
                             </div>
-
-
-
                             <label class="styleConctado">
                                 <input type="checkbox" asp-for="KeepLoggedIn" />
                                 Mantenha-me conectado.
                             </label>
                             <br />
-                          
+
                             <div class="form-group">
                                 <input type="submit" value="Entrar" class="btn btn-primary" />
                                 <input type="submit" value="Cadastre-se" asp-controller="Usuarios" asp-action="Create" class="btn btn-primary" />
