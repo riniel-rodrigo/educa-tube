@@ -11,12 +11,17 @@
 
   <ItemGroup>
     <Compile Remove="wwwroot\css\Notas\**" />
+    <Compile Remove="wwwroot\css\PerfilStyle\**" />
     <Content Remove="wwwroot\css\Notas\**" />
+    <Content Remove="wwwroot\css\PerfilStyle\**" />
     <EmbeddedResource Remove="wwwroot\css\Notas\**" />
+    <EmbeddedResource Remove="wwwroot\css\PerfilStyle\**" />
     <None Remove="wwwroot\css\Notas\**" />
+    <None Remove="wwwroot\css\PerfilStyle\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\PerfilController.cs" />
     <Compile Remove="Views\Home\VideoPlayer.cs" />
     <Compile Remove="Views\Shared\RandomVideos.cshtml.cs" />
     <Compile Remove="Views\Shared\_RandomVideos.cshtml.cs" />
@@ -29,6 +34,7 @@
     <Content Remove="wwwroot\css\HomeStyle.css" />
     <Content Remove="wwwroot\css\modelo.css" />
     <Content Remove="wwwroot\css\NotasStyle\NotasDelete.cs" />
+    <Content Remove="wwwroot\css\NovaPasta\Perfil.cs" />
     <Content Remove="wwwroot\img\EducaTube1.png" />
   </ItemGroup>
 

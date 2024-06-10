@@ -12,7 +12,9 @@ namespace educa_tube_code.Models
         public DbSet<Nota> Notas { get; set; }
 
         public DbSet<Video> Videos { get; set; }
-
+        public DbSet<Pomodoro> Pomodoros { get; set; }
+        public DbSet<Agenda> Agendas { get; set; }
+        public DbSet<Cometario> Comentarios { get; set; }
 
     }
 }
