@@ -19,7 +19,8 @@
 |	Requisito Associado 	| RF-007 - O site deve oferecer ao usuário ferramentas de busca local de vídeos ou playlists. |
 |Registro de evidência | |
 |   |   |
-| **Caso de Teste** 	| **CT-004 - Sistema de Anotações** 	|
-|	Requisito Associado 	| RF-011 - O site deve permitir ao usuário assistir vídeos |
-|Registro de evidência | |
+
+# print do servidor com as tabelas
+<img src="img/print_servidor.jpg">
+
 
