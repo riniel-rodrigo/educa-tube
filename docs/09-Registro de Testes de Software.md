@@ -19,6 +19,9 @@
 |	Requisito Associado 	| RF-007 - O site deve oferecer ao usuário ferramentas de busca local de vídeos ou playlists. |
 |Registro de evidência | |
 |   |   |
+| **Caso de Teste** 	| **CT-005 - Recuperação de senha** 	|
+|	Requisito Associado 	| RNF-04 - O sistema de identificação do usuário deve permitir recuperar senha em caso de esquecimento, mudar senha quando necessário e identificar quando o usuário está logado. |
+|Registro de evidência | |
 
 # print do servidor com as tabelas
 <img src="img/print_servidor.jpg">
