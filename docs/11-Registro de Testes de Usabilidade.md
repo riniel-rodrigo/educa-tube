@@ -23,7 +23,7 @@ Observação: Dado que o site não está completo, foram utilizados apenas uma p
 
 ---
 
-| Data       | 12/06/2024           |
+| Data       | 05/06/2024           |
 |------------|----------------------|
 | Facilitador| Equipe EducaTube   |
 | Participante | Maria Silva        |
