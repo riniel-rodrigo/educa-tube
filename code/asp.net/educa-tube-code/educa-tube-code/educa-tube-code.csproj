@@ -10,12 +10,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Pomodoro\**" />
     <Compile Remove="wwwroot\css\Notas\**" />
     <Compile Remove="wwwroot\css\PerfilStyle\**" />
+    <Content Remove="Views\Pomodoro\**" />
     <Content Remove="wwwroot\css\Notas\**" />
     <Content Remove="wwwroot\css\PerfilStyle\**" />
+    <EmbeddedResource Remove="Views\Pomodoro\**" />
     <EmbeddedResource Remove="wwwroot\css\Notas\**" />
     <EmbeddedResource Remove="wwwroot\css\PerfilStyle\**" />
+    <None Remove="Views\Pomodoro\**" />
     <None Remove="wwwroot\css\Notas\**" />
     <None Remove="wwwroot\css\PerfilStyle\**" />
   </ItemGroup>
@@ -36,6 +40,15 @@
     <Content Remove="wwwroot\css\NotasStyle\NotasDelete.cs" />
     <Content Remove="wwwroot\css\NovaPasta\Perfil.cs" />
     <Content Remove="wwwroot\img\EducaTube1.png" />
+    <Content Remove="wwwroot\js\pomoAtivador.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\js\pomoAtivador.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\pomoAtivador.js" />
   </ItemGroup>
 
   <ItemGroup>
