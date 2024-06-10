@@ -6,7 +6,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Registro de
 
 Observação: Dado que o site não está completo, foram utilizados apenas uma pessoa\voluntario por teste de RF com intuito de testar os primeiros designs e funcionalidades criadas dentro do site, sendo elas: Tela de Login, Tela de Cadastro e Tela de bloco de notas.
 
-| Data       | 10/05/2024           |
+| Data       | 10/06/2024           |
 |------------|----------------------|
 | Facilitador| Equipe EducaTube    |
 | Participante | Pedro Oliveira     |
@@ -23,7 +23,7 @@ Observação: Dado que o site não está completo, foram utilizados apenas uma p
 
 ---
 
-| Data       | 12/05/2024           |
+| Data       | 12/06/2024           |
 |------------|----------------------|
 | Facilitador| Equipe EducaTube   |
 | Participante | Maria Silva        |
@@ -40,7 +40,7 @@ Observação: Dado que o site não está completo, foram utilizados apenas uma p
 
 ---                                                                                     
 
-| Data                     | 02/05/2024                                                                                         |
+| Data                     | 02/06/2024                                                                                         |
 |--------------------------|----------------------------------------------------------------------------------------------------|
 | Facilitador              | Equipe EducaTube                                                                                   |
 | Participante             | Rafael Mendes                                                                                      |
