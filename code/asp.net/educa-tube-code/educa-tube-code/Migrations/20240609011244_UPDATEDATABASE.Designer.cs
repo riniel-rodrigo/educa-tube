@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using educa_tube_code.Models;
 
@@ -11,9 +12,11 @@ using educa_tube_code.Models;
 namespace educa_tube_code.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240609011244_UPDATEDATABASE")]
+    partial class UPDATEDATABASE
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,58 +24,6 @@ namespace educa_tube_code.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
-
-            modelBuilder.Entity("educa_tube_code.Models.Agenda", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("Data")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Evento")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.Property<int>("UsuarioId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UsuarioId");
-
-                    b.ToTable("Agendas");
-                });
-
-            modelBuilder.Entity("educa_tube_code.Models.Cometario", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("Data")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("UsuarioId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("texto")
-                        .IsRequired()
-                        .HasMaxLength(1000)
-                        .HasColumnType("nvarchar(1000)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UsuarioId");
-
-                    b.ToTable("Comentarios");
-                });
 
             modelBuilder.Entity("educa_tube_code.Models.Nota", b =>
                 {
@@ -101,33 +52,6 @@ namespace educa_tube_code.Migrations
                     b.HasIndex("UsuarioId");
 
                     b.ToTable("Notas");
-                });
-
-            modelBuilder.Entity("educa_tube_code.Models.Pomodoro", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<bool>("Bloqueia")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("Quantidade")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Tempo")
-                        .HasColumnType("int");
-
-                    b.Property<int>("UsuarioId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UsuarioId");
-
-                    b.ToTable("Pomodoros");
                 });
 
             modelBuilder.Entity("educa_tube_code.Models.Usuario", b =>
@@ -169,11 +93,26 @@ namespace educa_tube_code.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("ChannelThumbnailUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ChannelTitle")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("DataCadastro")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DatePublished")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Descricao")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Duration")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("LikeCount")
+                        .HasColumnType("bigint");
 
                     b.Property<string>("Tags")
                         .HasColumnType("nvarchar(max)");
@@ -192,6 +131,9 @@ namespace educa_tube_code.Migrations
                     b.Property<string>("VideoId")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<long>("ViewCount")
+                        .HasColumnType("bigint");
+
                     b.HasKey("Id");
 
                     b.ToTable("Videos");
@@ -201,17 +143,6 @@ namespace educa_tube_code.Migrations
                 {
                     b.HasOne("educa_tube_code.Models.Usuario", "Usuario")
                         .WithMany("Notas")
-                        .HasForeignKey("UsuarioId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Usuario");
-                });
-
-            modelBuilder.Entity("educa_tube_code.Models.Pomodoro", b =>
-                {
-                    b.HasOne("educa_tube_code.Models.Usuario", "Usuario")
-                        .WithMany()
                         .HasForeignKey("UsuarioId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();

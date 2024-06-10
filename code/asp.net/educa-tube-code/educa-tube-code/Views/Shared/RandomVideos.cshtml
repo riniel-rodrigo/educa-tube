@@ -1,0 +1,43 @@
+﻿@model IEnumerable<educa_tube_code.Models.Video>
+
+@{
+    Layout = null;
+}
+
+@if (Model != null && Model.Any())
+{
+    <div class="randomVideos">
+        <h2>Random Videos</h2>
+        <div class="listVideo">
+            @foreach (var video in Model)
+            {
+                <a asp-action="Watch" asp-route-videoId="@video.VideoId">
+                    <div class="videoCard">
+                        <div class="divThumb">
+                            <img class="thumbImg" src="@video.ThumbnailUrl" alt="@video.Titulo" />
+                        </div>
+                        <div class="footerCard">
+                            <p class="vidTitle">@video.Titulo</p>
+                            <div class="videoInfo">
+                                <p><i class="bi bi-eye-fill"></i> &nbsp; @video.ViewCount</p>
+                                <p><i class="bi bi-hand-thumbs-up-fill"></i> &nbsp; @video.LikeCount</p>
+                                <p class="videoDate">@video.DatePublished.ToString("dd/MM/yyyy")</p>
+                            </div>
+                            <div class="divChannel">
+                                <img class="channelImg" src="@video.ChannelThumbnailUrl" alt="Foto do canal" />
+                                <p>@video.ChannelTitle</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            }
+        </div>
+    </div>
+}
+else
+{
+    <p>No random videos available.</p>
+}
+
+@* RenderBody é chamado para indicar onde o conteúdo principal deve ser renderizado *@
+@RenderBody()

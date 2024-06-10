@@ -26,12 +26,12 @@ namespace educa_tube_code.Models
         public string ConfirmPassword { get; set; }
 
         [NotMapped] // Não afeta seu banco de dados
-        [Required(ErrorMessage = "Obrigatório informar Nova Senha!")]
+     
         [DataType(DataType.Password)]
         public string NovaSenha { get; set; }
 
         [NotMapped] // Não afeta seu banco de dados
-        [Required(ErrorMessage = "Obrigatório Confirmar Nova Senha!")]
+       
         [DataType(DataType.Password)]
         public string ConfirmNovaSenha { get; set; }
 

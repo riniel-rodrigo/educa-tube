@@ -1,6 +1,133 @@
 ﻿body {
 }
 
-.listVideo{
+.listVideo {
+    display: flex;
+    flex-direction: column;
     width:100%;
+    gap:2rem;
 }
+
+.videoCard {
+    display: flex;
+    width: 100%;
+    height: 210px;
+    border-radius:17px;
+}
+
+.thumbImg {
+    width: 330px;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.footerCard {
+    display:flex;
+    flex-direction:column;
+    gap:0.5rem;
+    padding: 15px;
+    width: 100%;
+    color:#595959;
+}
+
+.footerCard p{
+    all:unset;
+    display:flex;
+    
+}
+
+.divChannel {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top:0.5rem;
+}
+
+.divChannel img {
+    width:35px;
+    height:35px;
+    border-radius:50%;
+}
+
+.divChannel p{
+    font-size:13px;
+    font-weight:500;
+}
+
+.vidTitle {
+    font-size:1.2rem !important;
+    font-weight:500 !important;
+    color:black !important;
+}
+
+.videoInfo{
+    display:flex;
+    gap:1.3rem;
+}
+
+.videoInfo p {
+    color: #444444;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 12px;
+}
+
+/*-------------*/
+
+.container1{
+    display:flex;
+    gap:2rem;
+}
+
+.banner1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    width: 620px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgba(13, 170, 188, 1);
+}
+
+.bannerText {
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+    font-weight: 700;
+    text-align:center;
+    letter-spacing: 0.3px;
+    line-height: 36px;
+}
+
+.bannerImg {
+    display:flex;
+    width: 320px;
+    height: 320px;
+}
+
+.banner2 {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    padding:20px;
+    width: 320px;
+    height: 300px;
+    border-radius: 20px;
+    background-image: linear-gradient(225deg, #e2a46f 0, #da9361 25%, #ce7e51 50%, #c26942 75%, #b95739 100%);
+}
+
+.banner2 i{
+    font-size:2.5rem;
+}
+
+.banner2 a{
+    all:unset;
+}
+
+.banner2 a:hover{
+    cursor:pointer;
+}
+
