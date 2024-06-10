@@ -1,4 +1,5 @@
 ﻿@model IEnumerable<educa_tube_code.Models.Video>
+@using Microsoft.AspNetCore.Mvc.Rendering
 
 @{
     ViewData["Title"] = "Home";
@@ -9,25 +10,53 @@
 
 @if (Model != null && Model.Any())
 {
-    <div>
+    <div class="listVideo">
         @foreach (var video in Model)
         {
-            <div>
-                <div>
-                    <img src="@video.ThumbnailUrl" alt="@video.Titulo" />
-                    <span>Duração: @video.Duration</span>
-                    <img src="@video.ChannelThumbnailUrl" alt="Foto do canal" />
+            <a asp-action="Watch" asp-route-videoId="@video.VideoId">
+                <div class="videoCard">
+                    <div class="divThumb">
+                        <img class="thumbImg" src="@video.ThumbnailUrl" alt="@video.Titulo" />
+                    </div>
+
+                    <div class="footerCard">
+                        <p class="vidTitle">@video.Titulo</p>
+
+                        <div class="videoInfo">
+                            <p><i class="bi bi-eye-fill"></i> &nbsp; @video.ViewCount</p>
+                            <p><i class="bi bi-hand-thumbs-up-fill"></i> &nbsp; @video.LikeCount</p>
+                            <p class="videoDate">@video.DatePublished.ToString("dd/MM/yyyy")</p>
+                        </div>
+
+                        <div class="divChannel">
+                            <img class="channelImg" src="@video.ChannelThumbnailUrl" alt="Foto do canal" />
+                            <p>@video.ChannelTitle</p>
+                        </div>
+                    </div>
                 </div>
-                <h3>@video.Titulo</h3>
-                <p>Visualizações: @video.ViewCount</p>
-                <p>Data de Publicação: @video.DatePublished.ToString("dd/MM/yyyy")</p>
-                <p>Curtidas: @video.LikeCount</p>
-                <a asp-action="Watch" asp-route-videoId="@video.VideoId">Assistir Vídeo</a>
-            </div>
+            </a>
         }
     </div>
 }
 else
 {
-    <p>Nenhum vídeo encontrado.</p>
+    <div class="container1">
+        <div>
+            <div class="banner1">
+                <span class="bannerText"> Descubra um novo jeito de aprender! </span>
+                <img class="bannerImg" src="https://i.imgur.com/dFJHNxw.png" />
+            </div>
+        </div>
+
+        <div>
+            <div class="banner2">
+                <span class="bannerText"> Conheça o projeto </span>
+                <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-educatube"><i class="bi bi-github"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container2">
+
+    </div>
 }
