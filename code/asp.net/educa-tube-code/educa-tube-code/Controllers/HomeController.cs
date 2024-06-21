@@ -25,14 +25,24 @@ namespace educa_tube_code.Controllers
 
         public async Task<IActionResult> Index(string query)
         {
-            List<Video> videos = new List<Video>();
+            List<Video> searchVideos = new List<Video>();
+            List<Video> specificVideos = new List<Video>();
 
             if (!string.IsNullOrEmpty(query))
             {
-                videos = await _youTubeService.SearchVideosAsync(query);
+                searchVideos = await _youTubeService.SearchVideosAsync(query);
+                ViewBag.ShowBanner = false;
+            }
+            else
+            {
+                var specificVideoIds = new List<string> { "22nd99SLgNA", "8Z0MdYoZzeM", "kJyQw1k78yg", "kaHwgUCIKFI", "6v0SMTZ8hkU", "OtUuK6nELGg", "EfF1M7myAyY", "4j7hXeZ84iA", "IwNgujjHZoQ"};
+                specificVideos = await _youTubeService.GetSpecificVideosAsync(specificVideoIds);
+                ViewBag.ShowBanner = true;
             }
 
-            return View(videos);
+            ViewBag.Query = query;
+            ViewBag.SpecificVideos = specificVideos;
+            return View(searchVideos);
         }
 
         public IActionResult Privacy()
@@ -51,7 +61,6 @@ namespace educa_tube_code.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-
 
         public IActionResult Watch(string videoId)
         {

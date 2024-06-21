@@ -3,42 +3,16 @@
 
 @{
     ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    bool showBanner = ViewBag.ShowBanner ?? true;
+    string query = ViewBag.Query as string;
+    var specificVideos = ViewBag.SpecificVideos as List<educa_tube_code.Models.Video>;
 }
 
 <link rel="stylesheet" type="text/css" href="~/css/HomeStyle/Home.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-@if (Model != null && Model.Any())
-{
-    <div class="listVideo">
-        @foreach (var video in Model)
-        {
-            <a asp-action="Watch" asp-route-videoId="@video.VideoId">
-                <div class="videoCard">
-                    <div class="divThumb">
-                        <img class="thumbImg" src="@video.ThumbnailUrl" alt="@video.Titulo" />
-                    </div>
-
-                    <div class="footerCard">
-                        <p class="vidTitle">@video.Titulo</p>
-
-                        <div class="videoInfo">
-                            <p><i class="bi bi-eye-fill"></i> &nbsp; @video.ViewCount</p>
-                            <p><i class="bi bi-hand-thumbs-up-fill"></i> &nbsp; @video.LikeCount</p>
-                            <p class="videoDate">@video.DatePublished.ToString("dd/MM/yyyy")</p>
-                        </div>
-
-                        <div class="divChannel">
-                            <img class="channelImg" src="@video.ChannelThumbnailUrl" alt="Foto do canal" />
-                            <p>@video.ChannelTitle</p>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        }
-    </div>
-}
-else
+@if (showBanner)
 {
     <div class="container1">
         <div>
@@ -55,8 +29,80 @@ else
             </div>
         </div>
     </div>
+}
 
-    <div class="container2">
+@if (!string.IsNullOrEmpty(query))
+{
+    if (Model != null && Model.Any())
+    {
+        <div class="listVideo searchResults">
+            <!-- vídeos resultados da pesquisa -->
+            @foreach (var video in Model)
+            {
+                <a asp-action="Watch" asp-route-videoId="@video.VideoId">
+                    <div class="videoCard searchVideoCard">
+                        <div class="divThumb searchThumb">
+                            <img class="thumbImg" src="@video.ThumbnailUrl" alt="@video.Titulo" />
+                        </div>
 
-    </div>
+                        <div class="footerCard">
+                            <p class="vidTitle">@video.Titulo</p>
+
+                            <div class="videoInfo">
+                                <p><i class="bi bi-eye-fill"></i> &nbsp; @video.ViewCount</p>
+                                <p><i class="bi bi-hand-thumbs-up-fill"></i> &nbsp; @video.LikeCount</p>
+                                <p class="videoDate">@video.DatePublished.ToString("dd/MM/yyyy")</p>
+                            </div>
+
+                            <div class="divChannel">
+                                <img class="channelImg" src="@video.ChannelThumbnailUrl" alt="Foto do canal" />
+                                <p>@video.ChannelTitle</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="container2">
+            <p>Nenhum vídeo encontrado para a pesquisa.</p>
+        </div>
+    }
+}
+else
+{
+    if (specificVideos != null && specificVideos.Any())
+    {
+        <div class="specificVideos">
+            <!-- vídeos específicos antes da pesquisa -->
+            @foreach (var video in specificVideos)
+            {
+                <a asp-action="Watch" asp-route-videoId="@video.VideoId">
+                    <div class="specificVideoCard">
+                        <div class="specificThumb">
+                            <img class="thumbImg2" src="@video.ThumbnailUrl" alt="@video.Titulo" />
+                        </div>
+
+                        <div class="footerCard2">
+
+                            <p class="vidTitle2">@video.Titulo</p>
+
+                            <div class="videoInfo">
+                                <p><i class="bi bi-eye-fill"></i> &nbsp; @video.ViewCount</p>
+                                <p class="videoDate">@video.DatePublished.ToString("dd/MM/yyyy")</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="container2">
+            <p>Nenhum vídeo específico encontrado.</p>
+        </div>
+    }
 }

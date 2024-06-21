@@ -38,12 +38,17 @@ namespace educa_tube_code.Services
             {
                 if (searchResult.Id.Kind == "youtube#video")
                 {
+                    var thumbnailUrl = searchResult.Snippet.Thumbnails.Maxres?.Url ??
+                                       searchResult.Snippet.Thumbnails.High?.Url ??
+                                       searchResult.Snippet.Thumbnails.Medium?.Url ??
+                                       searchResult.Snippet.Thumbnails.Default__.Url;
+
                     var video = new Video
                     {
                         Titulo = searchResult.Snippet.Title,
                         Url = $"https://www.youtube.com/watch?v={searchResult.Id.VideoId}",
                         Descricao = searchResult.Snippet.Description,
-                        ThumbnailUrl = searchResult.Snippet.Thumbnails.Default__.Url,
+                        ThumbnailUrl = thumbnailUrl, // Use the best quality thumbnail
                         DataCadastro = DateTime.Now,
                         VideoId = searchResult.Id.VideoId,
                         DatePublished = searchResult.Snippet.PublishedAtDateTimeOffset?.DateTime ?? DateTime.MinValue,
@@ -70,6 +75,50 @@ namespace educa_tube_code.Services
 
                     videos.Add(video);
                 }
+            }
+
+            return videos;
+        }
+
+        public async Task<List<Video>> GetSpecificVideosAsync(List<string> videoIds)
+        {
+            var youtubeService = new YouTubeService(new BaseClientService.Initializer()
+            {
+                ApiKey = _apiKey,
+                ApplicationName = this.GetType().ToString()
+            });
+
+            var videoListRequest = youtubeService.Videos.List("snippet,contentDetails,statistics");
+            videoListRequest.Id = string.Join(",", videoIds);
+
+            var videoListResponse = await videoListRequest.ExecuteAsync();
+
+            var videos = new List<Video>();
+
+            foreach (var videoDetails in videoListResponse.Items)
+            {
+                var thumbnailUrl = videoDetails.Snippet.Thumbnails.Maxres?.Url ??
+                                   videoDetails.Snippet.Thumbnails.High?.Url ??
+                                   videoDetails.Snippet.Thumbnails.Medium?.Url ??
+                                   videoDetails.Snippet.Thumbnails.Default__.Url;
+
+                var video = new Video
+                {
+                    Titulo = videoDetails.Snippet.Title,
+                    Url = $"https://www.youtube.com/watch?v={videoDetails.Id}",
+                    Descricao = videoDetails.Snippet.Description,
+                    ThumbnailUrl = thumbnailUrl,
+                    DataCadastro = DateTime.Now,
+                    VideoId = videoDetails.Id,
+                    DatePublished = videoDetails.Snippet.PublishedAtDateTimeOffset?.DateTime ?? DateTime.MinValue,
+                    ChannelTitle = videoDetails.Snippet.ChannelTitle,
+                    ViewCount = (long)(videoDetails.Statistics.ViewCount ?? 0),
+                    LikeCount = (long)(videoDetails.Statistics.LikeCount ?? 0),
+                    Duration = ConvertDuration(videoDetails.ContentDetails.Duration),
+                    ChannelThumbnailUrl = videoDetails.Snippet.Thumbnails.Default__.Url
+                };
+
+                videos.Add(video);
             }
 
             return videos;
