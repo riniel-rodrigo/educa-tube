@@ -28,7 +28,7 @@ namespace educa_tube_code.Controllers
                 usuario.KeepLoggedIn = false;
                 usuario.DataCadastro = DateTime.Now.ToString();
                 _context.Usuarios.Add(usuario);
-                 _context.SaveChanges();
+                _context.SaveChanges();
                 return RedirectToAction("Index", "Home");
             }
             return View(usuario);

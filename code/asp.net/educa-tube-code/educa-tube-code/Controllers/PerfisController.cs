@@ -2,6 +2,9 @@
 using educa_tube_code.Models;
 using System.Security.Claims;
 using System.Data.Entity.Infrastructure;
+using System.Data.Entity;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
 
 
 namespace educa_tube_code.Controllers
@@ -102,5 +105,39 @@ namespace educa_tube_code.Controllers
             return _context.Usuarios.Any(e => e.Id == id);
         }
 
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+                return NotFound();
+
+
+            Usuario usuario = _context.Usuarios.FirstOrDefault(o => o.Id == GetUserId());
+
+            if (usuario != null)
+                return View(usuario);
+
+            return NotFound();
+
+
+        }
+
+        [HttpPost, ActionName("DeleteConfirmed")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            
+            var usuario =  _context.Usuarios.Where(n => n.Id == id).FirstOrDefault();
+            if (usuario != null)
+            {
+                _context.Usuarios.Remove(usuario);
+                _context.SaveChangesAsync();
+            }
+            HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Login", "Login");
+          
+        }
+
+      
     }
 }
