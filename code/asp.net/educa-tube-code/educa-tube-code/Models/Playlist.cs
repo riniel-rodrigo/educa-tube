@@ -19,7 +19,11 @@ namespace educa_tube_code.Models
         public string Descricao { get; set; }
         public DateTime DataCadastro { get; set; }
         public string ThumbnailUrl { get; set; }
+        public int UsuarioId { get; set; }
 
-        public string PlaylistId { get; set; }
+        [Display(Name = "Usuário")]
+        [ForeignKey("UsuarioId")]
+        public Usuario Usuario { get; set; }
+
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using educa_tube_code.Models;
 
 
 namespace educa_tube_code.Models
@@ -15,6 +16,7 @@ namespace educa_tube_code.Models
         public DbSet<Pomodoro> Pomodoros { get; set; }
         public DbSet<Agenda> Agendas { get; set; }
         public DbSet<Cometario> Comentarios { get; set; }
+        public DbSet<educa_tube_code.Models.Playlist> Playlist { get; set; }
 
     }
 }
