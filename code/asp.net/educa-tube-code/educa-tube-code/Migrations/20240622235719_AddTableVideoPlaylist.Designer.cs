@@ -12,8 +12,8 @@ using educa_tube_code.Models;
 namespace educa_tube_code.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240622172841_AddTablePlaylistVideo")]
-    partial class AddTablePlaylistVideo
+    [Migration("20240622235719_AddTableVideoPlaylist")]
+    partial class AddTableVideoPlaylist
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -128,7 +128,6 @@ namespace educa_tube_code.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Url")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("UsuarioId")
@@ -253,6 +252,29 @@ namespace educa_tube_code.Migrations
                     b.ToTable("Videos");
                 });
 
+            modelBuilder.Entity("educa_tube_code.Models.VideoPlaylist", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("PlaylistId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("VideoId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PlaylistId");
+
+                    b.HasIndex("VideoId");
+
+                    b.ToTable("VideoPlaylist");
+                });
+
             modelBuilder.Entity("educa_tube_code.Models.Agenda", b =>
                 {
                     b.HasOne("educa_tube_code.Models.Usuario", "Usuario")
@@ -306,6 +328,25 @@ namespace educa_tube_code.Migrations
                         .IsRequired();
 
                     b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("educa_tube_code.Models.VideoPlaylist", b =>
+                {
+                    b.HasOne("educa_tube_code.Models.Playlist", "playlist")
+                        .WithMany()
+                        .HasForeignKey("PlaylistId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("educa_tube_code.Models.Video", "Video")
+                        .WithMany()
+                        .HasForeignKey("VideoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Video");
+
+                    b.Navigation("playlist");
                 });
 
             modelBuilder.Entity("educa_tube_code.Models.Usuario", b =>

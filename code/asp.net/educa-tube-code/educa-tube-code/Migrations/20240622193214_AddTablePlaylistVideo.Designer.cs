@@ -12,8 +12,8 @@ using educa_tube_code.Models;
 namespace educa_tube_code.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240622160359_AddAtualizaBDPlaylist")]
-    partial class AddAtualizaBDPlaylist
+    [Migration("20240622193214_AddTablePlaylistVideo")]
+    partial class AddTablePlaylistVideo
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -128,7 +128,6 @@ namespace educa_tube_code.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Url")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("UsuarioId")

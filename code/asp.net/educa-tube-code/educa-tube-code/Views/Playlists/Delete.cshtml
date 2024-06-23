@@ -1,0 +1,28 @@
+﻿@model educa_tube_code.Models.Playlist
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Delete</h1>
+
+<h3>Você deseja realmente excluir essa playlist?</h3>
+<div>
+    <h4>Playlist</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Titulo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Titulo)
+        <dt class = "col-sm-2">
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" sp-controller="Playlists" asp-action="DeleteConfirmed" value="SIM" class="btn btn-danger" /> 
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

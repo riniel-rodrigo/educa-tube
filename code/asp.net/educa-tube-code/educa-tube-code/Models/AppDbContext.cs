@@ -16,7 +16,8 @@ namespace educa_tube_code.Models
         public DbSet<Pomodoro> Pomodoros { get; set; }
         public DbSet<Agenda> Agendas { get; set; }
         public DbSet<Cometario> Comentarios { get; set; }
-        public DbSet<educa_tube_code.Models.Playlist> Playlist { get; set; }
+        public DbSet<Playlist> Playlist { get; set; }
+        public DbSet<VideoPlaylist> VideoPlaylist { get; set; }
 
     }
 }

@@ -13,7 +13,6 @@ namespace educa_tube_code.Models
         [Required(ErrorMessage = "O título da playlist é obrigatório!")]
         public string Titulo { get; set; }
 
-        [Required(ErrorMessage = "A URL da playlist é obrigatória!")]
         public string Url { get; set; }
 
         public string Descricao { get; set; }
