@@ -164,6 +164,27 @@ namespace educa_tube_code.Controllers
 
 
         }
+        public async Task<IActionResult> DeleteVideoPlaylist(int? id)
+        {
+            if (id == null)
+                return NotFound();
+
+
+            VideoPlaylist videoList = _context.VideoPlaylist.FirstOrDefault(o => o.Id == id);
+
+            if (videoList != null)
+            {
+                _context.VideoPlaylist.Remove(videoList);
+                _context.SaveChanges();
+                return RedirectToAction("Details", "Playlists", new { id = id });
+            }
+          
+
+
+            return NotFound();
+
+
+        }
         /// <summary>
         /// Comentado para possivel utilização quando se resolver as adicções de video
         /// </summary>

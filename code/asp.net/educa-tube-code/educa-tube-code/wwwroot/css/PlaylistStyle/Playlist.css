@@ -1,0 +1,83 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.ContainerMain {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    width: 100%;
+}
+
+    .ContainerMain h2 {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+.ContainerCards {
+  
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 100%;
+}
+
+    .addPlay {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #004d74;
+    }
+
+
+.playlistCard {
+    padding: 0.7rem;
+    width: 18rem;
+    background-color: #FFF;
+    color: #000;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #0582ca09;
+}
+
+    .playlistCard .playTitleDiv {
+        display: flex;
+        justify-content: space-between;
+    }
+
+.playTitle {
+    max-width: 13rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.90rem;
+    font-weight: 400;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+}
+
+    .icons i {
+        color: #0582ca;
+    }
+
+.conteudoPrev {
+    padding: 0.5rem;
+    font-size: 0.90rem;
+    font-weight: 300;
+    color: #6c757d;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.confirmAPlaylist {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #004d74;
+}

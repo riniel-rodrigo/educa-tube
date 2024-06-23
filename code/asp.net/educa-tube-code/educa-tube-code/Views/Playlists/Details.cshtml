@@ -4,8 +4,11 @@
     ViewData["Title"] = "Details";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<link rel="stylesheet" type="text/css" href="~/css/PlaylistStyle/PlaylistDelete.css" />
+<link rel="stylesheet" type="text/css" href="~/css/PlaylistStyle/Playlist.css" />
 
-<h1>Details</h1>
+<h2 class="confirmAPlaylist">Seus Videos <i class="bi bi-play-btn"></i> </h2>
+<div class="buttonsDiv"><a asp-action="Index"><i class="bi bi-arrow-bar-left"></i></a></div>
 
 <p>
    @*  <a class="btn btn-primary" href="@Url.Action("AddVideo", "Playlists" , new { id = @Model.First().playlist.Id })">Adicionar Video</a> *@
@@ -16,19 +19,20 @@
             <th>
                 @Html.DisplayNameFor(model => model.Video)
             </th>
-            <th></th>
         </tr>
     </thead>
-    <tbody>
+
 @foreach (var item in Model) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Video.Titulo)
             </td>
+            <a class="primaryButton backButton" asp-action="Index"> <i class="bi bi-arrow-bar-left"></i> Voltar</a>
             <td>
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="DeleteVideoPlaylist" asp-route-id="@item.Id">Delete</a>
             </td>
+
         </tr>
 }
     </tbody>

@@ -4,39 +4,44 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<link rel="stylesheet" type="text/css" href="~/css/PlaylistStyle/Playlist.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-<h1>Suas Playlists</h1>
-
+<h2 >Suas Playlists <i class="bi bi-music-note-list"></i> </h2>
+<br />
 <p>
-    <a asp-action="Create">Criar nova playlist</a>
+    <a asp-action="Create" class="addPlay">Criar nova playlist | <i class="bi bi-plus-circle"></i> </a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Titulo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Descricao)
-            </th
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Titulo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Descricao)
-            </td>
 
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Visualizar Palylist</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="ContainerMain">
+
+    <div class="ContainerCards">
+
+        @foreach (var item in Model)
+        {
+            <div class="playlistCard">
+
+                <div class="playTitleDiv">
+                    <div class="playTitle">
+                        Nome: @Html.DisplayFor(modelItem => item.Titulo)
+                    </div>
+
+                    <div class="icons">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="bi bi-pencil-square btnEdit"></a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="bi bi-x-square btnDelete"></a>
+                        <br />
+                       
+                    </div>
+                </div>
+
+                <div class="conteudoPrev">
+                    @Html.DisplayFor(modelItem => item.Descricao)
+                    <br />
+                    <a asp-action="Details" asp-route-id="@item.Id">Ver Palylist completa</a>
+                </div>
+            </div>
+        }
+
+    </div>
+
+</div>
