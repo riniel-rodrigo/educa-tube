@@ -1,0 +1,114 @@
+﻿<div style="display:flex;flex-direction:column;width:auto;position:absolute; top:106px;right:20px;padding:4px;border:2px solid black;border-radius:0.5rem;color:black;box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);background-color: white; z-index:9;">
+    <div style="display: flex;flex-direction: column;align-items: center;position:relative;width:100%;">
+        <div style="display:flex;flex-direction:row">
+            <p style="margin:0px 0px 0px 8px"><b>Pomodorómetro</b></p>
+            <a style="display: flex;justify-content: center;height: 14px;width: 14px;font-size: 0.8rem;cursor: pointer;margin-right: 0px;margin-bottom:0px;margin-left: 10px;border: 1px solid black;border-radius: 2px;align-items: center;" onclick="pomoAtivador()">x</a>
+        </div>
+        <div id="pomodo-time" style="font-size: 1rem;display:flex;flex-direction:row">
+            <div id="pomo-hora">00</div><span>:</span><div id="pomo-min">00</div><span>:</span><div id="pomo-sec">00</div>
+        </div>
+        <div style="border:1px solid;width:80%;margin-bottom:3px;"><span></span></div>
+        <div>
+            <button id="btn-start" style="border-radius:0.25rem;background-color:inherit;border: 2px solid inherit;color:inherit;cursor:pointer">START</button>
+            <button id="btn-stop" style="border-radius:0.25rem;background-color:inherit;border: 2px solid inherit;color:inherit;cursor:pointer">STOP</button>
+            <button id="btn-reset" style="border-radius:0.25rem;background-color:inherit;border: 2px solid inherit;color:inherit;cursor:pointer">RESET</button>
+        </div>
+        <div style="border:1px solid;width:80%;margin-bottom:3px;margin-top:3px;"><span></span></div>
+        <div id="config-btn-case">
+            <button id="btn-config" style="border-radius:0.25rem;background-color:inherit;border: 2px solid inherit;color:inherit;cursor:pointer" onclick="pomoConfig()">CONFIG</button>
+        </div>
+        <div id="pomo-config" style="display:none;flex-direction:column;align-items: center;padding:3px;">
+            <div style="display:flex;flex-direction:column;align-items: center;">
+                
+            </div>
+            <p style="width:200px;font-size:0.5rem;text-align:justify;margin-bottom:8px;">Após configurar seu pomodorómetro click em <b>SALVAR</b> para manter suas configurações, caso queira manter sua configuração como está basta clicar em <b>FECHAR</b>.</p>
+            <div>
+                <button id="btn-pomo-salvar" style="border-radius:0.25rem;background-color:inherit;border: 2px solid inherit;color:inherit;cursor:pointer">SALVAR</button>
+                <button id="btn-pomo-fechar" style="border-radius:0.25rem;background-color:inherit;border: 2px solid inherit;color:inherit;cursor:pointer">FECHAR</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    window.onload = function () {
+        let horas = 0;
+        let mins = 0;
+        let secs = 0;
+        let appendHoras = document.querySelector('#pomo-hora');
+        let appendMins = document.querySelector('#pomo-min');
+        let appendSecs = document.querySelector('#pomo-sec');
+        let startBtn = document.querySelector('#btn-start');
+        let stopBtn = document.querySelector('#btn-stop');
+        let resetBtn = document.querySelector('#btn-reset');
+        let configBtn = document.querySelector('#btn-config');
+        let fecharBtn = document.querySelector('#btn-pomo-fechar');
+        let caseBtn = document.querySelector('#config-btn-case');
+        let interval
+
+        const startTimer = () => {
+            secs++;
+            if (secs <= 9) {
+                appendSecs.innerHTML = '0' + secs;
+            }
+            if (secs > 9) {
+                appendSecs.innerHTML = secs;
+            }
+            if (secs > 59) {
+                mins++
+                appendMins.innerHTML = '0' + mins;
+                secs = 0
+                appendSecs.innerHTML = '0' + secs;
+            }
+            if (mins > 9) {
+                appendMins.innerHTML = mins;
+            }
+            if (mins > 59) {
+                horas++
+                appendHoras.innerHTML = '0' + horas;
+                mins = 0
+                appendMins.innerHTML = '0' + mins;
+            }
+            if (horas > 9) {
+                appendHoras.innerHTML = horas;
+            }
+        };
+        startBtn.onclick = () => {
+            clearInterval(interval);
+            interval = setInterval(startTimer, 1000);
+        };
+        stopBtn.onclick = () => {
+            clearInterval(interval);
+        };
+        resetBtn.onclick = () => {
+            clearInterval(interval);
+            secs = '00';
+            mins = '00';
+            horas = '00';
+            appendSecs.innerHTML = secs;
+            appendMins.innerHTML = mins;
+            appendHoras.innerHTML = horas;
+        };
+        configBtn.onclick = () => {
+            let config = document.getElementById("pomo-config");
+            if (config.style.display == "none") {
+                config.style.display = "flex";
+                caseBtn.style.display = "none";
+            } else {
+                config.style.display = "none";
+                caseBtn.style.display = "flex";
+            }
+        }
+        fecharBtn.onclick = () => {
+            let config = document.getElementById("pomo-config");
+            if (config.style.display == "none") {
+                config.style.display = "flex";
+                caseBtn.style.display = "none";
+            } else {
+                config.style.display = "none";
+                caseBtn.style.display = "flex";
+            }
+        }
+    }
+
+</script>
