@@ -1,0 +1,9 @@
+﻿.confirmDeletePlaylist {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #004d74;
+}
+.deleteButton {
+    background-color: #BB2D3B;
+    border: solid 2px #BB2D3B;
+}
