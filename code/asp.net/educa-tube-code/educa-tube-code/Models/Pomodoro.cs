@@ -14,8 +14,8 @@ namespace educa_tube_code.Models
         [Display(Name = "Usuário")]
         [ForeignKey("UsuarioId")]
         public Usuario Usuario { get; set; }
-        public int Tempo { get; set; }
-        public int Quantidade { get; set; }
+        public int Tempo { get; set; } = 20;
+        public int Quantidade { get; set; } = 1;
         public bool Bloqueia { get; set; } = false;
 
     }
