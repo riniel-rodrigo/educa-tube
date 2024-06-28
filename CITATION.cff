@@ -1,14 +1,14 @@
 cff-versão: 1.0.0
 message: "Caso Use nossa aplicação por favor use o exemplo de citação abaixo."
 autores:
-- Sobrenome: "Rosas"
-  Nome: "Pedro"
+- Sobrenome: "Rodrigo"
+  Nome: "Riniel"
 - Sobrenome: "Matheus"
   Nome: "Leticia"
 - Sobrenome: "Rosas"
   Nome: "Pedro"
-- Sobrenome: "Matheus"
-  Nome: "Leticia"
+- Sobrenome: "Aguiar"
+  Nome: "Alan"
 titulo: "EDUCATUBE"
 versão: 1.0.2
 data de lançamento: 23-06-2024
