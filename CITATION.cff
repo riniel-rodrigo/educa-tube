@@ -1,0 +1,14 @@
+cff-version: 1.0.0
+message: "Caso Use nossa aplicação por favor use o exemplo de citação abaixo."
+authors:
+- Sobrenome: "Lisa"
+  Nome: "Mona"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- Sobrenome: "Bot"
+  Nome: "Hew"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+titulo: "Meu Software de pesquisa"
+verssão: 2.0.4
+doi: 10.5281/zenodo.1234
+data de lançamento: 27-06-2024
+url: "hhttps://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-educatube"
