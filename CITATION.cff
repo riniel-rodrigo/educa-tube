@@ -1,15 +1,15 @@
 cff-versão: 1.0.0
 message: "Caso Use nossa aplicação por favor use o exemplo de citação abaixo."
-autores:
-- Sobrenome: "Rodrigo"
-  Nome: "Riniel"
-- Sobrenome: "Matheus"
-  Nome: "Leticia"
-- Sobrenome: "Rosas"
-  Nome: "Pedro"
-- Sobrenome: "Aguiar"
-  Nome: "Alan"
-titulo: "EDUCATUBE"
-versão: 1.0.2
-data de lançamento: 23-06-2024
+authors:
+- family-names: "Rodrigo"
+  given-names: "Riniel"
+- family-names: "Matheus"
+  given-names: "Leticia"
+- family-names: "Rosas"
+  given-names: "Pedro"
+- family-names: "Aguiar"
+  given-names: "Alan"
+title: "EDUCATUBE"
+versin: 1.0.2
+date-released: 23-06-2024
 url: "hhttps://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-educatube"
