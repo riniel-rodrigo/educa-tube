@@ -1,11 +1,15 @@
-cff-version: 1.0.0
+cff-versão: 1.0.0
 message: "Caso Use nossa aplicação por favor use o exemplo de citação abaixo."
-authors:
+autores:
 - Sobrenome: "Rosas"
   Nome: "Pedro"
-- Sobrenome: "Bot"
-  Nome: "Hew"
+- Sobrenome: "Matheus"
+  Nome: "Leticia"
+- Sobrenome: "Rosas"
+  Nome: "Pedro"
+- Sobrenome: "Matheus"
+  Nome: "Leticia"
 titulo: "EDUCATUBE"
-verssão: 1.0.2
+versão: 1.0.2
 data de lançamento: 23-06-2024
 url: "hhttps://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-educatube"
