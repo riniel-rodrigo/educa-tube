@@ -46,7 +46,7 @@ Assim que a primeira versão do sistema estiver disponível teremos descrições
 
 # Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+<li><a href="code/asp.net/educa-tube-code"> Código Fonte</a></li>
 
 # Apresentação
 
