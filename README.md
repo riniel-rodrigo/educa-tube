@@ -50,4 +50,6 @@ Assim que a primeira versão do sistema estiver disponível teremos descrições
 
 # Apresentação
 
+<li><a href="https://youtu.be/kVwH6xc9QKw"> Apresentação do projeto</a></li>
+
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
