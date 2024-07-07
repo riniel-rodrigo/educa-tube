@@ -1,11 +1,5 @@
 # EDUCATUBE
 
-`EAD - ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
-
-`Eixo 2 - Projeto: Desenvolvimento de uma Aplicação Interativa - Turma 04 - 2024/1`
-
-`2º SEMESTRE`
-
 Este trabalho é um site que oferece vídeos úteis para ajudar na organização de informações de qualidade sobre diferentes temas em um ambiente planejado para facilitar o foco e a concentração devido à diminuição de estímulos que podem trazer dispersão na hora do estudo.
 
 ## Integrantes
